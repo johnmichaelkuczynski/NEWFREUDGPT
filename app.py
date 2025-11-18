@@ -174,7 +174,7 @@ def get_providers():
     if perplexity_client:
         providers.append({'id': 'perplexity', 'name': 'Perplexity', 'models': ['llama-3.1-sonar-large-128k-online', 'llama-3.1-sonar-small-128k-online']})
     if grok_client:
-        providers.append({'id': 'grok', 'name': 'Grok (xAI)', 'models': ['grok-4.1', 'grok-4', 'grok-2', 'grok-2-mini']})
+        providers.append({'id': 'grok', 'name': 'Grok (xAI)', 'models': ['grok-4', 'grok-3-beta', 'grok-3-mini-beta', 'grok-code-fast-1']})
     return jsonify({'providers': providers})
 
 @app.route('/api/ask', methods=['POST'])
@@ -339,7 +339,7 @@ def ask():
                         yield f"data: {json.dumps({'type': 'error', 'data': 'Grok (xAI) API key not configured'})}\n\n"
                         yield f"data: {json.dumps({'type': 'done'})}\n\n"
                         return
-                    model_name = model or "grok-4.1"
+                    model_name = model or "grok-4"
                     stream = grok_client.chat.completions.create(
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
