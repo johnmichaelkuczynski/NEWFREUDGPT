@@ -108,7 +108,7 @@ class KuczynskiChat {
         }
         
         this.providerSelect.innerHTML = this.providers.map(p => 
-            `<option value="${p.id}">${p.name}</option>`
+            `<option value="${p.id}" ${p.id === 'grok' ? 'selected' : ''}>${p.name}</option>`
         ).join('');
         
         this.updateModelDropdown();
