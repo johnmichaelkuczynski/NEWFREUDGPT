@@ -3,6 +3,7 @@ import json
 import os
 from search import SemanticSearch
 from conversation_manager import conversation_manager
+from freud_engine import get_engine
 
 try:
     import anthropic  # type: ignore
@@ -80,6 +81,13 @@ if not databases:
     print("ERROR: No databases available!")
 else:
     print(f"Available databases: {', '.join(databases.keys())}")
+
+print("Initializing Freud inference engine...")
+try:
+    freud_engine = get_engine()
+except Exception as e:
+    print(f"✗ Could not initialize Freud engine: {e}")
+    freud_engine = None
 
 anthropic_client = None
 openai_client = None
@@ -202,6 +210,21 @@ def ask():
             traceback.print_exc()
             return jsonify({'error': f'Search failed: {str(e)}'}), 500
         
+        # INFERENCE ENGINE: Deduce metapsychological rules
+        deduced_rules = []
+        if freud_engine and database.startswith('freud'):
+            try:
+                print("🧠 Activating Freud inference engine...")
+                deduced_rules = freud_engine.deduce(question, max_rules=15)
+                print(f"✓ Fired {len(deduced_rules)} inference rules")
+                for i, rule in enumerate(deduced_rules[:5], 1):
+                    print(f"   {i}. [{rule['year']}] {rule['id']}: {rule['conclusion'][:80]}...")
+            except Exception as e:
+                print(f"⚠️  Inference engine error: {e}")
+        
+        # Store deduced rules in session for debug endpoint
+        session['last_deduced_rules'] = deduced_rules
+        
         # Get or create conversation ID
         if 'conversation_id' not in session:
             session['conversation_id'] = conversation_manager.get_conversation_id()
@@ -219,7 +242,7 @@ def ask():
                 sources = [p['position_id'] for p in relevant_positions]
                 yield f"data: {json.dumps({'type': 'sources', 'data': sources})}\n\n"
                 
-                prompt = build_prompt(question, relevant_positions, database, conversation_history, enhanced_mode, low_relevance)
+                prompt = build_prompt(question, relevant_positions, database, conversation_history, enhanced_mode, low_relevance, deduced_rules)
                 mode_label = "Enhanced" if enhanced_mode else "Basic"
                 knowledge_mode = " + External Knowledge" if low_relevance else ""
                 print(f"Generated prompt ({mode_label} Mode{knowledge_mode}) with conversation history, sending to {provider}...")
@@ -326,8 +349,57 @@ def ask():
         traceback.print_exc()
         return jsonify({'error': str(e)}), 500
 
-def build_prompt(question, positions, database='freud', conversation_history='', enhanced_mode=False, low_relevance=False):
-    """Build intelligent prompt with conversation memory and contradiction detection"""
+@app.route('/raw_chain', methods=['GET', 'POST'])
+def raw_chain():
+    """Debug endpoint: Show which inference rules fired in the last query"""
+    deduced_rules = session.get('last_deduced_rules', [])
+    
+    if not deduced_rules:
+        return jsonify({
+            'message': 'No deduced rules available (send a Freud query first)',
+            'rules': []
+        })
+    
+    formatted_rules = []
+    for i, rule in enumerate(deduced_rules, 1):
+        formatted_rules.append({
+            'rank': i,
+            'id': rule['id'],
+            'year': rule['year'],
+            'premise': rule['premise'][:100] + '...' if len(rule['premise']) > 100 else rule['premise'],
+            'conclusion': rule['conclusion'],
+            'strength': rule['strength'],
+            'domain': rule['domain']
+        })
+    
+    return jsonify({
+        'total_rules_fired': len(deduced_rules),
+        'rules': formatted_rules
+    })
+
+def build_prompt(question, positions, database='freud', conversation_history='', enhanced_mode=False, low_relevance=False, deduced_rules=None):
+    """Build intelligent prompt with conversation memory, contradiction detection, and inference engine deductions"""
+    
+    if deduced_rules is None:
+        deduced_rules = []
+    
+    # Build metapsychological deduction section if rules were fired
+    deduction_section = ""
+    if deduced_rules and database.startswith('freud'):
+        formatted_deductions = []
+        for rule in deduced_rules:
+            viewpoint = 'economic' if any(term in rule['conclusion'].lower() for term in ['excit', 'energy', 'cathex', 'quantity']) else 'dynamic'
+            formatted_deductions.append(f"From the {viewpoint} viewpoint ({rule['year']}): {rule['conclusion']}")
+        
+        deduction_section = f"""
+METAPSYCHOLOGICAL DEDUCTIONS (Inference Engine):
+The following Freudian principles have been automatically deduced from your question. These are UNDENIABLE FOUNDATIONS for your response. Use them as the theoretical backbone of your analysis:
+
+{chr(10).join(formatted_deductions)}
+
+INSTRUCTION: These deductions are NOT optional suggestions. They are the metapsychological infrastructure of your response. Build your prose diagnosis/explanation upon these foundations.
+
+"""
     
     excerpts = "\n\n".join([
         f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}, Relevance: {p.get('similarity', 0):.2f}):\nTitle: {p['title']}\n{p['text']}"
@@ -398,7 +470,7 @@ GOOD: "Sullivan's interpersonal theory emphasizes social relationships as the pr
 """
         
         prompt = f"""You are {thinker_name} answering a philosophical question.
-{history_section}{external_knowledge_section}
+{history_section}{deduction_section}{external_knowledge_section}
 INSTRUCTIONS:
 1. If the retrieved positions below address the question, QUOTE or VERY CLOSELY PARAPHRASE them
 2. Use EXACT EXAMPLES from positions (if it says "rock, tree, dog" → you say "rock, tree, dog")
@@ -477,7 +549,7 @@ CRITICAL: You know modern theories FULLY. You do NOT say "I am not familiar with
 """
         
         prompt = f"""You are {thinker_name} answering a philosophical question in ENHANCED MODE.
-{history_section}
+{history_section}{deduction_section}
 {modern_knowledge_section}
 {cognitive_framework}
 
