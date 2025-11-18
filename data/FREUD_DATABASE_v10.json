@@ -4,9 +4,9 @@
     "edition": "COMPLETE_WORKS_EXTRACTION",
     "compilation_date": "2025-11-18",
     "compiler": "LLM Extraction Pipeline",
-    "total_positions": 155,
-    "source_parts": 11,
-    "description": "Philosophical positions extracted from Freud Complete Works (Parts 1-11)"
+    "total_positions": 226,
+    "source_parts": 16,
+    "description": "Philosophical positions extracted from Freud Complete Works (Parts 1-16)"
   },
   "positions": [
     {
@@ -1868,6 +1868,858 @@
       ],
       "work_id": "PART11",
       "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4529",
+      "id": "FREUD-4529",
+      "title": "Authority in Psychoanalysis",
+      "text_evidence": "Freud believed that psychoanalysis required a central authority to guide and instruct practitioners, especially to avoid potential pitfalls in the field. He felt that a structured leadership was essential for maintaining the integrity of psychoanalysis as it gained popularity.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4530",
+      "id": "FREUD-4530",
+      "title": "Concerns Over Popularity",
+      "text_evidence": "Freud expressed concern that as psychoanalysis became popular, it would be subjected to abuses and misinterpretations. He emphasized the need for an official association to delineate what constituted true psycho-analysis and to protect the discipline from being diluted.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4531",
+      "id": "FREUD-4531",
+      "title": "Training and Standards",
+      "text_evidence": "Freud advocated for the establishment of training programs and standards for psychoanalysts to ensure that practitioners were adequately prepared and that their work was recognized as legitimate. This was part of his vision for a formalized structure within the field.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4532",
+      "id": "FREUD-4532",
+      "title": "Community Among Practitioners",
+      "text_evidence": "Freud believed in the importance of a supportive community among psychoanalysts, especially in the face of opposition from mainstream science. He saw the formation of an association as a way to foster communication and mutual support among practitioners.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4533",
+      "id": "FREUD-4533",
+      "title": "Leadership Succession",
+      "text_evidence": "Freud's decision to transfer authority to a younger analyst, C. G. Jung, highlights his belief in the necessity of leadership succession within psychoanalysis. He aimed to ensure continuity and stability in the discipline's development.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4534",
+      "id": "FREUD-4534",
+      "title": "Psychoanalysis and Scientific Honesty",
+      "text_evidence": "Psycho-analysis, which repudiates so many conventional ideals, is more honest in these matters too. It acknowledges the upheavals and dissensions that occur within scientific movements, suggesting that its transparency about conflicts is a strength rather than a weakness.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4535",
+      "id": "FREUD-4535",
+      "title": "Resistance and Transference in Neurosis",
+      "text_evidence": "The first task confronting psycho-analysis was to explain the neuroses; it used the two facts of resistance and transference as starting-points, and, taking into consideration the third fact of amnesia, accounted for them with its theories of repression, of the sexual motive forces in neurosis and of the unconscious.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4536",
+      "id": "FREUD-4536",
+      "title": "Limitations of Psychoanalytic Theory",
+      "text_evidence": "Psycho-analysis has never claimed to provide a complete theory of human mentality in general, but only expected that what it offered should be applied to supplement and correct the knowledge acquired by other means.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4537",
+      "id": "FREUD-4537",
+      "title": "Critique of Divergent Theories",
+      "text_evidence": "I wish merely to show that these theories controvert the fundamental principles of analysis... and that for this reason they should not be known by the name of analysis.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4538",
+      "id": "FREUD-4538",
+      "title": "The Role of Amnesia in Analysis",
+      "text_evidence": "Taking into consideration the third fact of amnesia, psycho-analysis accounts for neuroses alongside resistance and transference, highlighting the complexity of the unconscious mind.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4539",
+      "id": "FREUD-4539",
+      "title": "Role of Childhood in Neurosis",
+      "text_evidence": "All disputes about the psychogenesis of the neuroses must eventually be decided in the field of the neuroses of childhood. Careful dissection of a neurosis in early childhood puts an end to all misapprehensions about the aetiology of the neuroses and to all doubts about the part played by the sexual instincts in them.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4540",
+      "id": "FREUD-4540",
+      "title": "Repression and Civilization",
+      "text_evidence": "What is meant is simply that civilization is based on the repressions effected by former generations, and that each fresh generation is required to maintain this civilization by effecting the same repressions.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4541",
+      "id": "FREUD-4541",
+      "title": "Critique of Adler's Individual Psychology",
+      "text_evidence": "Adler has never from the first shown any understanding of repression... If you ask where repression comes from, you are told, 'from civilization'; but if you go on to ask where civilization comes from, you are told 'from repression'.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4542",
+      "id": "FREUD-4542",
+      "title": "Infantilism in Psychological Theories",
+      "text_evidence": "It shows the disguise under which the factor of infantilism, which is so strongly emphasized by psycho-analysis, re-appears in 'Individual Psychology'.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4543",
+      "id": "FREUD-4543",
+      "title": "Sexual Instincts in Neurosis",
+      "text_evidence": "Careful dissection of a neurosis in early childhood puts an end to all misapprehensions about the aetiology of the neuroses and to all doubts about the part played by the sexual instincts in them.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 12"
+      ],
+      "work_id": "PART12",
+      "work_title": "Complete Works Part 12"
+    },
+    {
+      "position_id": "FREUD-4729",
+      "id": "FREUD-4729",
+      "title": "Forgetting as Defense Mechanism",
+      "text_evidence": "The forgetting of impressions and experiences demonstrates the operation of the purpose of keeping disagreeable things out of memory. Disagreeable impressions are easily forgotten, indicating a mental defense against unpleasurable impulses. This suggests that forgetting serves a protective function in our psychological life.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4730",
+      "id": "FREUD-4730",
+      "title": "Contradictions in Mental Life",
+      "text_evidence": "Mental life is the arena for mutually opposing purposes, consisting of contradictions and pairs of contraries. The existence of a particular purpose does not negate the existence of an opposite one; both can coexist and influence our mental processes.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4731",
+      "id": "FREUD-4731",
+      "title": "Purpose Behind Memory Loss",
+      "text_evidence": "All cases of losing or mislaying items share a commonality: there was a wish to lose something. The basis and aim of that wish can differ, indicating that memory loss can serve multiple psychological purposes, such as emotional distancing or the desire to forget unpleasant associations.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4732",
+      "id": "FREUD-4732",
+      "title": "Impact of Early Experiences",
+      "text_evidence": "Experiences from our earliest childhood years can be deeply impressionable yet are often forgotten. This suggests that the mechanisms of forgetting are complex and not solely based on the unpleasantness of the memories, but also on their emotional significance and the psychological context.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4733",
+      "id": "FREUD-4733",
+      "title": "Social Implications of Memory",
+      "text_evidence": "In social life, it has been observed that unwanted and illegitimate children are often more frail than those conceived legitimately. This observation highlights the broader implications of psychological processes, such as memory and forgetting, on social and familial dynamics.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4734",
+      "id": "FREUD-4734",
+      "title": "Dreams as Historical Significance",
+      "text_evidence": "All the peoples of antiquity attached great significance to dreams and thought they could be used for practical purposes. They deduced signs for the future from them and searched in them for auguries.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4735",
+      "id": "FREUD-4735",
+      "title": "Decline of Dream Interpretation",
+      "text_evidence": "The fact remains that interest in dreams gradually sank to the level of superstition and could survive only among the uneducated classes.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4736",
+      "id": "FREUD-4736",
+      "title": "Medical View of Dreams",
+      "text_evidence": "Medical men... looked on dreams as non-psychical acts, as the expression in mental life of somatic stimuli.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4737",
+      "id": "FREUD-4737",
+      "title": "Dreams and Superstition",
+      "text_evidence": "The final abuse of dream-interpretation was reached in our days with attempts to discover from dreams the numbers fated to be drawn in the game of lotto.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4738",
+      "id": "FREUD-4738",
+      "title": "Dreams vs. Conscious Thought",
+      "text_evidence": "According to an old analogy, the contents of a dream are like the sounds produced when 'the ten fingers of a man who knows nothing of music wander over the keys of a piano.'",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4739",
+      "id": "FREUD-4739",
+      "title": "Dreams as Reactions to Stimuli",
+      "text_evidence": "Freud posits that dreams are reactions to stimuli that disturb sleep. He cites experimental evidence showing that external stimuli during sleep can manifest in dreams, illustrating how sensory experiences influence dream content.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4740",
+      "id": "FREUD-4740",
+      "title": "Personal Observation Validates Dream Theory",
+      "text_evidence": "Freud notes that personal observations can confirm the findings of experimental psychology regarding dreams. He references the work of Maury and others who experienced dreams influenced by specific stimuli, reinforcing the connection between waking experiences and dream content.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4741",
+      "id": "FREUD-4741",
+      "title": "Experimental Evidence of Dream Content",
+      "text_evidence": "Freud discusses various experiments where individuals reported dreams triggered by specific stimuli, such as scents or sounds. These examples demonstrate how external factors can shape the narrative and imagery of dreams, supporting the idea that dreams are not purely random.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4742",
+      "id": "FREUD-4742",
+      "title": "Influence of Alarm Clocks on Dreams",
+      "text_evidence": "Freud provides examples of dreams that were directly influenced by the ringing of alarm clocks, showing how a simple external sound can lead to complex dream scenarios. This illustrates the interplay between external stimuli and the dream state.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 13"
+      ],
+      "work_id": "PART13",
+      "work_title": "Complete Works Part 13"
+    },
+    {
+      "position_id": "FREUD-4929",
+      "id": "FREUD-4929",
+      "title": "Ego's Unreliability in Understanding the Unconscious",
+      "text_evidence": "The ego is not a trustworthy or impartial agency. It disavows the unconscious and represses its demands, particularly those related to sexuality. Therefore, we cannot rely on the ego's assertions to accurately represent the unconscious or the true nature of neurotic symptoms.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4930",
+      "id": "FREUD-4930",
+      "title": "Repression and Its Consequences",
+      "text_evidence": "The concept of repression warns us against trusting the ego's perspective in understanding neuroses. The ego's view is often skewed, leading to misconceptions about the origins and nature of symptoms, which are deeply rooted in repressed unconscious desires.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4931",
+      "id": "FREUD-4931",
+      "title": "The Role of Sexuality in Neuroses",
+      "text_evidence": "The most prominent elements in what is repressed are the repudiated demands of sexuality. The extent and importance of these demands cannot be accurately gauged from the ego’s conceptions, highlighting the critical role of sexuality in the formation of neuroses.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4932",
+      "id": "FREUD-4932",
+      "title": "Narcissistic Neuroses and Ego's Role",
+      "text_evidence": "Narcissistic neuroses illustrate a more intensive role of the ego in symptom formation. Future investigations into these disorders will provide a clearer understanding of the ego's involvement in the onset of neuroses, emphasizing the complexity of its functions.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4933",
+      "id": "FREUD-4933",
+      "title": "Passivity of the Ego in Neurotic Symptoms",
+      "text_evidence": "The ego often exhibits passivity, which it attempts to disguise. This passivity is evident in obsessional neuroses, where the ego confronts alien forces that it struggles to manage, indicating that the ego's role is not solely active or creative.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4934",
+      "id": "FREUD-4934",
+      "title": "Ego's Role in Neurosis",
+      "text_evidence": "A person only falls ill of a neurosis if his ego has lost the capacity to allocate his libido in some way. The stronger is his ego, the easier will it be for it to carry out that task.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4935",
+      "id": "FREUD-4935",
+      "title": "Libido and Neurotic Symptoms",
+      "text_evidence": "In both cases the symptoms originate from the libido, and are thus abnormal employments of it, substitutive satisfactions.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4936",
+      "id": "FREUD-4936",
+      "title": "Somatic and Psychical Interrelation",
+      "text_evidence": "The sexual function is not a purely psychical thing any more than it is a purely somatic one. It influences bodily and mental life alike.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4937",
+      "id": "FREUD-4937",
+      "title": "Actual vs. Psychoneuroses",
+      "text_evidence": "The symptoms of the ‘actual’ neuroses... have no ‘sense’, no psychical meaning. They are not only manifested predominantly in the body... but they are also themselves entirely somatic processes.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4938",
+      "id": "FREUD-4938",
+      "title": "Libido Allocation and Illness",
+      "text_evidence": "Any weakening of his ego from whatever cause must have the same effect as an excessive increase in the claims of the libido and will thus make it possible for him to fall ill of a neurosis.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4939",
+      "id": "FREUD-4939",
+      "title": "Anxiety as Non-Essential Response",
+      "text_evidence": "The generation of anxiety is never an expedient thing. It may perhaps help us to see more clearly if we dissect the situation of anxiety more carefully. The first thing about it is preparedness for the danger, which manifests itself in increased sensory attention and motor tension. This expectant preparedness can be unhesitatingly recognized as an advantage; indeed, its absence may be made responsible for serious consequences.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4940",
+      "id": "FREUD-4940",
+      "title": "Knowledge Alters Perception of Danger",
+      "text_evidence": "We can quite understand how a savage is afraid of a cannon and frightened by an eclipse of the sun, while a white man, who knows how to handle the instrument and can foretell the eclipse, remains without anxiety in these circumstances. On other occasions it is actually superior knowledge that promotes anxiety, because it makes an early recognition of the danger possible.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4941",
+      "id": "FREUD-4941",
+      "title": "Anxiety Paralyzes Action",
+      "text_evidence": "If the anxiety is excessively great it proves in the highest degree inexpedient; it paralyses all action, including even flight. Usually the reaction to danger consists in a mixture of the affect of anxiety and defensive action.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-4942",
+      "id": "FREUD-4942",
+      "title": "Preparedness vs. Anxiety",
+      "text_evidence": "Accordingly, the preparedness for anxiety seems to me to be the expedient element in what we call anxiety, and the generation of anxiety the inexpedient one. The more the generation of anxiety is limited to a mere abortive beginning - to a signal - the more will the preparedness for anxiety transform itself without disturbance into action.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 14"
+      ],
+      "work_id": "PART14",
+      "work_title": "Complete Works Part 14"
+    },
+    {
+      "position_id": "FREUD-5129",
+      "id": "FREUD-5129",
+      "title": "The Uncanny and the Double",
+      "text_evidence": "The theme of the ‘double’ has been very thoroughly treated by Otto Rank. It represents an insurance against the destruction of the ego, an energetic denial of the power of death. Originally, the ‘double’ was a means of preserving the self, but it later becomes an uncanny harbinger of death, reflecting the evolution of the idea from a protective symbol to a source of anxiety.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5130",
+      "id": "FREUD-5130",
+      "title": "Infantile Sources of Uncanny Themes",
+      "text_evidence": "We must content ourselves with selecting those themes of uncanniness which are most prominent and seeing whether they too can fairly be traced back to infantile sources. This suggests that the roots of our fears and uncanny experiences are deeply embedded in early childhood development.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5131",
+      "id": "FREUD-5131",
+      "title": "Doubling as a Symbol of Castration",
+      "text_evidence": "The language of dreams is fond of representing castration by a doubling or multiplication of a genital symbol. This indicates that the concept of doubling is intricately linked to fundamental anxieties surrounding identity and sexuality.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5132",
+      "id": "FREUD-5132",
+      "title": "Narcissism and the Double",
+      "text_evidence": "Such ideas have sprung from the soil of unbounded self-love, from the primary narcissism which dominates the mind of the child and of primitive man. This highlights the connection between narcissism and the development of the self-concept through the notion of the double.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5133",
+      "id": "FREUD-5133",
+      "title": "Evolution of the Idea of the Double",
+      "text_evidence": "The idea of the ‘double’ does not necessarily remain static; it evolves from being a protective symbol against death to becoming a source of uncanny dread. This evolution reflects deeper psychological transformations in human consciousness.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5134",
+      "id": "FREUD-5134",
+      "title": "Omnipotence of Thoughts",
+      "text_evidence": "Freud introduces the concept of the 'omnipotence of thoughts', suggesting that individuals may believe their thoughts can influence reality. This belief is rooted in an animistic worldview where mental processes are overvalued, leading to a sense of magical thinking. Such beliefs can manifest in feelings of anxiety and the uncanny when repressed thoughts resurface.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5135",
+      "id": "FREUD-5135",
+      "title": "The Uncanny and Repression",
+      "text_evidence": "Freud posits that the uncanny arises from repressed emotions or thoughts that resurface, creating feelings of fear or discomfort. This phenomenon suggests that what is perceived as alien or frightening is often familiar, having been pushed out of conscious awareness due to repression. The uncanny thus reflects a return of the repressed.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5136",
+      "id": "FREUD-5136",
+      "title": "Animistic Mental Activity",
+      "text_evidence": "Freud argues that all individuals pass through a developmental phase characterized by animistic thinking, where the world is seen as populated by spirits and magical powers. This stage leaves residues in the psyche, which can later manifest as feelings of the uncanny when triggered by certain stimuli.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5137",
+      "id": "FREUD-5137",
+      "title": "Fear and Anxiety Transformation",
+      "text_evidence": "Freud claims that any emotional impulse, when repressed, transforms into anxiety. This transformation indicates that the uncanny can be linked to repressed fears, suggesting that the frightening elements in our lives often originate from unresolved emotional conflicts.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5138",
+      "id": "FREUD-5138",
+      "title": "Cultural Residues of Animism",
+      "text_evidence": "Freud suggests that traces of animistic beliefs persist in contemporary culture, influencing how individuals perceive the uncanny. This cultural residue reflects a collective psychological heritage that shapes our understanding of fear and the supernatural.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5139",
+      "id": "FREUD-5139",
+      "title": "Uncanny Origin in Repressed Familiarity",
+      "text_evidence": "The uncanny proceeds from something familiar that has been repressed. This suggests that feelings of uncanniness arise when familiar elements resurface in a distorted or unexpected manner, triggering a sense of discomfort or fear.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5140",
+      "id": "FREUD-5140",
+      "title": "Intellectual Uncertainty and Fear",
+      "text_evidence": "We must be prepared to admit that there are other elements besides those which we have so far laid down as determining the production of uncanny feelings, including intellectual uncertainty, which plays a significant role in our experience of fear.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5141",
+      "id": "FREUD-5141",
+      "title": "Differentiation of Experienced vs. Imagined Uncanny",
+      "text_evidence": "We should differentiate between the uncanny that we actually experience and the uncanny that we merely picture or read about. The experienced uncanny is more simply conditioned and fits better with the notion of repressed familiarity.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5142",
+      "id": "FREUD-5142",
+      "title": "Omnipotence of Thoughts and Uncanny Feelings",
+      "text_evidence": "The feeling of uncanniness arises when we encounter situations that seem to confirm old, discarded beliefs about the omnipotence of thoughts and the return of the dead, leading to a clash between past beliefs and current understanding.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5143",
+      "id": "FREUD-5143",
+      "title": "Role of Danger in Uncanny Experience",
+      "text_evidence": "The uncanny effect of silence, darkness, and solitude points to the part played by danger in the genesis of what is uncanny, particularly in children, where these factors often trigger expressions of fear.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 15"
+      ],
+      "work_id": "PART15",
+      "work_title": "Complete Works Part 15"
+    },
+    {
+      "position_id": "FREUD-5329",
+      "id": "FREUD-5329",
+      "title": "Consciousness vs. Unconsciousness",
+      "text_evidence": "The division of the psychical into what is conscious and what is unconscious is the fundamental premiss of psycho-analysis; and it alone makes it possible for psycho-analysis to understand the pathological processes in mental life. Psycho-analysis cannot situate the essence of the psychical in consciousness, but must regard consciousness as a quality of the psychical, which may be present in addition to other qualities or may be absent.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5330",
+      "id": "FREUD-5330",
+      "title": "Transitory Nature of Consciousness",
+      "text_evidence": "Experience shows that a psychical element (for instance, an idea) is not as a rule conscious for a protracted length of time. A state of consciousness is characteristically very transitory; an idea that is conscious now is no longer so a moment later, although it can become so again under certain conditions.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5331",
+      "id": "FREUD-5331",
+      "title": "Latent Ideas and the Unconscious",
+      "text_evidence": "We can say that an idea was latent, meaning it was capable of becoming conscious at any time. If we say that it was unconscious, we are also giving a correct description of it. Here 'unconscious' coincides with 'latent and capable of becoming conscious'.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5332",
+      "id": "FREUD-5332",
+      "title": "Philosophical Resistance to the Unconscious",
+      "text_evidence": "To most people educated in philosophy, the idea of anything psychical which is not also conscious is inconceivable and seems absurd. This resistance arises because they have never studied relevant phenomena like hypnosis and dreams, which necessitate the view of the unconscious.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5333",
+      "id": "FREUD-5333",
+      "title": "Consciousness and Preconsciousness",
+      "text_evidence": "The question, ‘How does a thing become conscious?’ would thus be more advantageously stated: ‘How does a thing become preconscious?’ And the answer would be: ‘Through becoming connected with the word-presentations corresponding to it.’",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5334",
+      "id": "FREUD-5334",
+      "title": "Role of Memory in Consciousness",
+      "text_evidence": "Only something which has once been a Cs. perception can become conscious, and that anything arising from within (apart from feelings) that seeks to become conscious must try to transform itself into external perceptions: this becomes possible by means of memory-traces.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5335",
+      "id": "FREUD-5335",
+      "title": "Distinction Between Hallucinations and Memories",
+      "text_evidence": "When a memory is revived the cathexis remains in the mnemic system, whereas a hallucination... can arise when the cathexis does not merely spread over from the memory-trace on to the Pcpt. element, but passes over to it entirely.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5336",
+      "id": "FREUD-5336",
+      "title": "Topographical Model of Mental Life",
+      "text_evidence": "Both these possibilities are equally unimaginable, there must be a third alternative... this is the first attempt to indicate distinguishing marks for the two systems, the Pcs. and the Ucs.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5337",
+      "id": "FREUD-5337",
+      "title": "Mental Energy Displacement",
+      "text_evidence": "They represent displacements of mental energy which are effected somewhere in the interior of the apparatus as this energy proceeds on its way towards action.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5338",
+      "id": "FREUD-5338",
+      "title": "Unconscious Guilt in Neurosis",
+      "text_evidence": "In our analyses we discover that there are people in whom the faculties of self-criticism and conscience are unconscious and unconsciously produce effects of the greatest importance; in a great number of neuroses, an unconscious sense of guilt plays a decisive economic part and puts the most powerful obstacles in the way of recovery.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5339",
+      "id": "FREUD-5339",
+      "title": "Ego and Super-Ego Dynamics",
+      "text_evidence": "The ego is not merely the part of the id modified by the influence of the perceptual system; it includes a differentiation known as the 'ego ideal' or 'super-ego', which is less firmly connected with consciousness and plays a significant role in shaping the character.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5340",
+      "id": "FREUD-5340",
+      "title": "Dreams as Problem Solving",
+      "text_evidence": "Instances of coming into consciousness during sleep show that individuals may find solutions to problems upon waking, indicating that the unconscious mind can process and resolve complex issues.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5341",
+      "id": "FREUD-5341",
+      "title": "Character Formation through Identification",
+      "text_evidence": "The process of substitution, where an object-cathexis is replaced by an identification, is common and essential in determining the form taken by the ego and contributes to the development of an individual's character.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 16"
+      ],
+      "work_id": "PART16",
+      "work_title": "Complete Works Part 16"
     }
   ]
 }
