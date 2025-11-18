@@ -1,0 +1,865 @@
+{
+  "metadata": {
+    "version": "10.0",
+    "edition": "COMPLETE_WORKS_EXTRACTION",
+    "compilation_date": "2025-11-18",
+    "compiler": "LLM Extraction Pipeline",
+    "total_positions": 71,
+    "source_parts": 5,
+    "description": "New philosophical positions extracted from Freud Complete Works raw text files"
+  },
+  "positions": [
+    {
+      "position_id": "FREUD-2329",
+      "id": "FREUD-2329",
+      "title": "The Unconscious Mind",
+      "text_evidence": "Freud posited that the unconscious mind plays a crucial role in influencing thoughts, feelings, and behaviors, often without the individual's awareness. This hidden part of the psyche contains repressed memories and desires that can manifest in dreams and symptoms of neurosis.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2330",
+      "id": "FREUD-2330",
+      "title": "Dreams as Wish Fulfillment",
+      "text_evidence": "Freud argued that dreams serve as a form of wish fulfillment, allowing individuals to express desires that are otherwise suppressed in waking life. He believed that analyzing dreams could reveal underlying conflicts and desires, providing insight into the unconscious.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2331",
+      "id": "FREUD-2331",
+      "title": "Psychosexual Development Stages",
+      "text_evidence": "Freud introduced the concept of psychosexual development, suggesting that personality develops through a series of stages centered on erogenous zones. Each stage, from oral to genital, plays a critical role in shaping adult personality and behavior.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2332",
+      "id": "FREUD-2332",
+      "title": "Defense Mechanisms",
+      "text_evidence": "Freud identified various defense mechanisms that the ego employs to protect itself from anxiety and conflict. These mechanisms, such as repression, denial, and projection, help individuals cope with internal and external stressors by distorting reality.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2333",
+      "id": "FREUD-2333",
+      "title": "Oedipus Complex",
+      "text_evidence": "Freud proposed the Oedipus complex as a central element of his theory of psychosexual development, where a child experiences unconscious desires for the opposite-sex parent and rivalry with the same-sex parent. This complex is pivotal in forming the child's identity and moral framework.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2334",
+      "id": "FREUD-2334",
+      "title": "The Role of the Unconscious",
+      "text_evidence": "Freud posits that the unconscious mind plays a crucial role in shaping human behavior and experiences. It contains repressed thoughts and desires that influence our actions and emotions, often without our conscious awareness.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2335",
+      "id": "FREUD-2335",
+      "title": "Dreams as Wish Fulfillment",
+      "text_evidence": "Freud argues that dreams serve as a form of wish fulfillment, allowing individuals to express desires that are repressed in waking life. This perspective emphasizes the significance of dreams in understanding the unconscious mind.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2336",
+      "id": "FREUD-2336",
+      "title": "Psychosexual Development Stages",
+      "text_evidence": "Freud's theory of psychosexual development outlines stages through which a child's personality develops. Each stage is characterized by the erogenous focus of the libido, and unresolved conflicts can lead to neuroses in adulthood.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2337",
+      "id": "FREUD-2337",
+      "title": "Defense Mechanisms",
+      "text_evidence": "Freud identifies various defense mechanisms that the ego employs to manage anxiety and protect the individual from psychological distress. These mechanisms, such as repression and projection, are essential for maintaining mental health.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2338",
+      "id": "FREUD-2338",
+      "title": "The Oedipus Complex",
+      "text_evidence": "Freud introduces the Oedipus complex as a central concept in his theory of psychosexual development, suggesting that children experience unconscious desires for the opposite-sex parent and rivalry with the same-sex parent, which shapes their future relationships.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2339",
+      "id": "FREUD-2339",
+      "title": "Hysteria and Memory",
+      "text_evidence": "Hysterics suffer mainly from reminiscences. The determining process continues to operate in some way or other for years, not indirectly, but as a directly releasing cause. This suggests that traumatic memories can have lasting effects on psychological well-being, indicating that unresolved past experiences can manifest as symptoms in the present.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2340",
+      "id": "FREUD-2340",
+      "title": "Therapeutic Suggestion",
+      "text_evidence": "By taking the patient back to the moment at which the symptom first appeared, we may make him more susceptible to a therapeutic suggestion. This implies that revisiting the origin of psychological symptoms can enhance the effectiveness of therapeutic interventions.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2341",
+      "id": "FREUD-2341",
+      "title": "Role of Unconscious Processes",
+      "text_evidence": "It is plausible to suppose that it is a question here of unconscious suggestion: the patient expects to be relieved of his sufferings by this procedure. This highlights the importance of unconscious processes in shaping expectations and responses to treatment.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2342",
+      "id": "FREUD-2342",
+      "title": "Memory Persistence",
+      "text_evidence": "It seems extraordinary that events experienced so long ago should continue to operate so intensely. The fading of a memory or the losing of its affect depends on various factors, particularly the energetic reaction to the event. This suggests that the emotional intensity of memories can affect their longevity and impact.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2343",
+      "id": "FREUD-2343",
+      "title": "Auto-Hypnosis in Treatment",
+      "text_evidence": "Spontaneous auto-hypnoses on the part of the patient were observed to facilitate the analysis of hysteria. This indicates that self-induced altered states of consciousness can play a significant role in therapeutic processes.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 1"
+      ],
+      "work_id": "PART1",
+      "work_title": "Complete Works Part 1"
+    },
+    {
+      "position_id": "FREUD-2529",
+      "id": "FREUD-2529",
+      "title": "Childhood Trauma's Role in Psychopathology",
+      "text_evidence": "The mention of this sexual trauma in the patient’s childhood revealed not only the origin of her first obsessions but also the trauma which subsequently produced the pathogenic effects.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2530",
+      "id": "FREUD-2530",
+      "title": "Disconnection in Reminiscences",
+      "text_evidence": "The apparently disconnected reminiscences are closely linked in thought and that they lead quite straight to the pathogenic factor we are looking for.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2531",
+      "id": "FREUD-2531",
+      "title": "Physical Symptoms as Psychological Manifestations",
+      "text_evidence": "The pain I had then passed off after the treatment you recommended, and it stayed away for a long time; but now it has come back in a nervous form.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2532",
+      "id": "FREUD-2532",
+      "title": "Pressure Techniques in Therapy",
+      "text_evidence": "When I asked her, in concentration and under the pressure of my hand, whether anything occurred to her or whether she saw anything, she decided in favour of seeing and began to describe her visual pictures.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2533",
+      "id": "FREUD-2533",
+      "title": "Symbolism in Visual Experiences",
+      "text_evidence": "She saw something like a sun with rays, which I naturally took to be a phosphene, produced by pressure on the eyes.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2534",
+      "id": "FREUD-2534",
+      "title": "Resistance in Psychotherapy",
+      "text_evidence": "Psychical resistance, especially one that has been in force for a long time, can only be resolved slowly and by degrees. We must wait patiently and utilize the intellectual interest that the patient begins to feel after working for a short time. By explaining things and giving information about psychical processes, we can make the patient a collaborator and push back their resistance.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2535",
+      "id": "FREUD-2535",
+      "title": "Role of the Therapist",
+      "text_evidence": "The therapist acts as an elucidator, teacher, and father confessor, providing human assistance and support. This requires understanding the nature of the case and the motives of the patient's defense. The therapist's capacity for sympathy and respect is crucial in facilitating the patient's progress.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2536",
+      "id": "FREUD-2536",
+      "title": "Emergence of Pathogenic Recollections",
+      "text_evidence": "Pathogenic recollections often emerge in a fragmented manner, where patients may initially see only parts of memories or figures. It may take time for them to recognize themselves or significant others in these recollections, indicating the complex nature of memory and self-recognition in the therapeutic process.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2537",
+      "id": "FREUD-2537",
+      "title": "Intellectual Interest in Analysis",
+      "text_evidence": "As patients engage in analysis, they begin to develop an intellectual interest in their psychical processes. This interest can help reduce resistance and facilitate deeper exploration of their thoughts and memories, highlighting the importance of cognitive engagement in therapy.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2538",
+      "id": "FREUD-2538",
+      "title": "Value of Defense Mechanisms",
+      "text_evidence": "Understanding the motives behind a patient's defense mechanisms is essential for effective therapy. By recognizing and addressing these defenses, therapists can work to diminish their value and replace them with more constructive ones, aiding in the patient's healing process.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2539",
+      "id": "FREUD-2539",
+      "title": "Hysteria as Multi-Dimensional Structure",
+      "text_evidence": "Hysteria presents itself as a structure in several dimensions, stratified in at least three different ways. There is a nucleus of traumatic memories, surrounded by a profuse amount of other mnemic material arranged in a linear chronological order. This complexity complicates the analysis, as memories emerge in reverse order, with the freshest experiences appearing first.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2540",
+      "id": "FREUD-2540",
+      "title": "Chronological Order of Memories",
+      "text_evidence": "The analysis reveals that memories are arranged in a chronological order, which is as trustworthy as the succession of days of the week. This order is crucial for understanding the patient's experiences and the development of their symptoms.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2541",
+      "id": "FREUD-2541",
+      "title": "Stratification of Memory Resistance",
+      "text_evidence": "Memories are stratified concentrically around the pathogenic nucleus, with varying degrees of resistance. The closer the memories are to the nucleus, the more difficult they are to access, indicating a complex relationship between consciousness and repressed memories.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2542",
+      "id": "FREUD-2542",
+      "title": "Themes in Memory Analysis",
+      "text_evidence": "The grouping of similar memories into collections, or 'themes', is a general feature of analysis. Each theme exhibits a stratified arrangement, characterized by equal degrees of resistance, which complicates the retrieval of deeper memories.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 2"
+      ],
+      "work_id": "PART2",
+      "work_title": "Complete Works Part 2"
+    },
+    {
+      "position_id": "FREUD-2729",
+      "id": "FREUD-2729",
+      "title": "Dreams Derive from Reality",
+      "text_evidence": "Freud posits that the content of dreams is fundamentally rooted in our experiences, whether they are external or internal. Dreams borrow their material from the real world and our intellectual life, suggesting that even the most fantastical elements in dreams are connected to our waking thoughts and experiences.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2730",
+      "id": "FREUD-2730",
+      "title": "Memory's Role in Dream Content",
+      "text_evidence": "Freud asserts that all dream content is derived from memory and experience, although the connection between dreams and reality may not be immediately apparent. The peculiarities of memory in dreams can obscure this relationship, leading to the mistaken belief that dreams are independently produced.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2731",
+      "id": "FREUD-2731",
+      "title": "Hidden Connections in Dreams",
+      "text_evidence": "Freud highlights that the relationship between dream content and waking reality often requires diligent exploration to uncover. Many times, the source of dream material may remain hidden until a subsequent experience triggers the memory, revealing the dream's connection to past events.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2732",
+      "id": "FREUD-2732",
+      "title": "Dreams Reflect Childhood Memories",
+      "text_evidence": "Freud discusses how dreams can reveal accurate memories from childhood, as illustrated by the example of Maury, who recalled a watchman from his father's bridge construction through a dream. This suggests that dreams can serve as a conduit for accessing repressed or forgotten memories from early life.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2733",
+      "id": "FREUD-2733",
+      "title": "Connection Between Dream Figures",
+      "text_evidence": "Freud shares a personal dream where he confused the image of a doctor from his childhood with a schoolmaster. This illustrates the complex connections that can exist between figures in dreams, revealing how our subconscious mind intertwines different memories and associations.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2734",
+      "id": "FREUD-2734",
+      "title": "Recent Impressions in Dream Content",
+      "text_evidence": "Freud acknowledges that some writers argue that dreams often incorporate elements from the days immediately preceding them, suggesting a tension between the significance of recent experiences and those from childhood. This highlights the multifaceted nature of dream content and its sources.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2735",
+      "id": "FREUD-2735",
+      "title": "Skepticism Towards Dream Interpretation",
+      "text_evidence": "Freud notes Maury's skepticism about the accuracy of his dream memory, indicating a critical stance towards the reliability of dreams as reflections of reality. This skepticism invites a deeper exploration of how dreams may distort or reconstruct memories.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2736",
+      "id": "FREUD-2736",
+      "title": "Dreams as Psychological Investigations",
+      "text_evidence": "Freud's analysis of dreams suggests they serve as a means of psychological investigation, revealing hidden thoughts and connections. This positions dreams as valuable tools for understanding the psyche and the interplay of memory and identity.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2737",
+      "id": "FREUD-2737",
+      "title": "Dreams Reflect Sensory Stimuli",
+      "text_evidence": "Freud discusses how dreams can be influenced by external sensory stimuli experienced during sleep. For instance, a sound or sensation can evoke dream imagery that corresponds to the stimulus, illustrating the connection between waking experiences and dream content.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2738",
+      "id": "FREUD-2738",
+      "title": "Physical Sensations Influence Dream Content",
+      "text_evidence": "Freud provides examples where physical sensations, such as discomfort or temperature changes, lead to specific dream scenarios. This suggests that our bodily experiences can shape the narrative and themes of our dreams, linking physical states to psychological experiences.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2739",
+      "id": "FREUD-2739",
+      "title": "Accidental Stimuli Create Dream Imagery",
+      "text_evidence": "Freud notes that accidental stimuli during sleep, like a straw between toes or a tight shirt, can manifest in dreams as vivid scenarios, such as being hanged or tortured. This highlights the role of chance occurrences in the formation of dream narratives.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2740",
+      "id": "FREUD-2740",
+      "title": "Dreams as Responses to Bodily States",
+      "text_evidence": "Freud illustrates that dreams often arise as responses to bodily conditions, such as pain or discomfort, which can lead to dreams of being attacked or injured. This emphasizes the interplay between physical sensations and the psychological processes involved in dreaming.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 3"
+      ],
+      "work_id": "PART3",
+      "work_title": "Complete Works Part 3"
+    },
+    {
+      "position_id": "FREUD-2929",
+      "id": "FREUD-2929",
+      "title": "Dreams Reflect Unconscious Conflicts",
+      "text_evidence": "The analysis of nonsensical verbal forms in dreams reveals the dream work’s achievements in condensation, indicating that dreams often reflect underlying unconscious conflicts and emotions. This suggests that dreams are not random but are deeply connected to our psychological states.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2930",
+      "id": "FREUD-2930",
+      "title": "Language and Psychological Disorders",
+      "text_evidence": "The verbal malformations in dreams resemble those found in paranoia, hysteria, and obsessions, suggesting a common source in the psychological processes of the mind. This highlights the intricate relationship between language and various psychological disorders.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2931",
+      "id": "FREUD-2931",
+      "title": "Educational Influence on Emotions",
+      "text_evidence": "The dream reflects a concern that an educational talk intended to influence emotional life may have unintended negative effects, illustrating the complexities of interpersonal influence and the potential for harm in educational contexts.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2932",
+      "id": "FREUD-2932",
+      "title": "Symbolism in Dreams",
+      "text_evidence": "The transformation of the word 'syphilis' into a symbol for 'poison' in relation to sexual life demonstrates how dreams use symbolic language to convey deeper meanings and emotional truths, emphasizing the importance of interpretation in understanding dreams.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2933",
+      "id": "FREUD-2933",
+      "title": "Commonality of Dream Material",
+      "text_evidence": "Freud notes that the material found in dreams, such as nonsensical verbal forms, is very common, yet often goes unrecorded due to the dependence of dream interpretation on psychoanalytic treatment, suggesting a wealth of unconscious material waiting to be explored.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2934",
+      "id": "FREUD-2934",
+      "title": "Dreams Have Meaning",
+      "text_evidence": "Freud asserts that dreams are full of meaning and should not be dismissed as nonsense. He emphasizes that understanding dreams requires attention from the dreamer, suggesting that even seemingly nonsensical dreams contain significant insights into the individual's psyche.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2935",
+      "id": "FREUD-2935",
+      "title": "Concealed Thoughts in Dreams",
+      "text_evidence": "Freud notes that dreams often conceal unchaste or secret qualities of the dreamer, which complicates their interpretation. This suggests that the latent content of dreams can reveal deeper, often hidden aspects of one's personality and desires.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2936",
+      "id": "FREUD-2936",
+      "title": "Dream Interpretation Complexity",
+      "text_evidence": "Freud acknowledges the complexity of dream interpretation, indicating that it involves processes like dream condensation and displacement. He believes that a thorough understanding of these processes is essential for accurately interpreting the meaning of dreams.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2937",
+      "id": "FREUD-2937",
+      "title": "Dream Analysis vs. Synthesis",
+      "text_evidence": "Freud differentiates between dream analysis and synthesis, stating that while analysis can be valuable even if incomplete, synthesis requires a complete understanding of the dream to be convincing. This highlights the methodological rigor he believes is necessary in psychoanalysis.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2938",
+      "id": "FREUD-2938",
+      "title": "Continuity of Self in Dreams",
+      "text_evidence": "Freud posits that the same individual exists whether awake or dreaming, suggesting a continuity of self that transcends the dream state. This idea reinforces the notion that dreams are integral to understanding the whole person.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2939",
+      "id": "FREUD-2939",
+      "title": "Causality in Dream Representation",
+      "text_evidence": "Freud argues that dreams represent causality through temporal sequences, either by a sequence of dreams or by the transformation of one image into another. However, he notes that in many cases, the causal relation is lost in the confusion of dream elements, and alternatives are often presented as equally valid rather than mutually exclusive.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2940",
+      "id": "FREUD-2940",
+      "title": "Ambiguity of Dream Elements",
+      "text_evidence": "Freud highlights that dream elements often possess a quality of vagueness, which can be resolved through interpretation. He suggests that when narrators use 'either-or' to describe dreams, it is more accurate to treat the alternatives as equally valid and link them with 'and', reflecting the complexity of dream thoughts.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2941",
+      "id": "FREUD-2941",
+      "title": "Dreams Reflect Unconscious Conflicts",
+      "text_evidence": "In the analysis of dreams, Freud indicates that they often fulfill multiple wishes or thoughts that may be mutually exclusive. This reflects the underlying conflicts and desires present in the unconscious mind, showcasing how dreams can serve as a battleground for competing thoughts and feelings.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2942",
+      "id": "FREUD-2942",
+      "title": "Interpretation of Dream Content",
+      "text_evidence": "Freud emphasizes the importance of interpreting the latent content of dreams, as the manifest content often obscures the true meaning. By analyzing the symbols and transformations within dreams, one can uncover the deeper psychological truths and conflicts that the dreamer may not consciously acknowledge.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-2943",
+      "id": "FREUD-2943",
+      "title": "Role of Wish Fulfillment in Dreams",
+      "text_evidence": "Freud posits that dreams often serve as a form of wish fulfillment, allowing individuals to explore desires and conflicts that are repressed in waking life. This concept is central to understanding the psychological significance of dreams and their role in the human experience.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 4"
+      ],
+      "work_id": "PART4",
+      "work_title": "Complete Works Part 4"
+    },
+    {
+      "position_id": "FREUD-3129",
+      "id": "FREUD-3129",
+      "title": "Preconscious Thought Dynamics",
+      "text_evidence": "Freud posits that trains of thought can exist in a preconscious state, where they are rational yet neglected or suppressed. These thoughts can continue to develop without conscious attention until they gain enough intensity to attract awareness. This process illustrates how thoughts can operate outside of conscious scrutiny, influenced by cathectic energy and unconscious wishes.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3130",
+      "id": "FREUD-3130",
+      "title": "Role of Cathexis in Thought",
+      "text_evidence": "Freud describes cathexis as the investment of psychic energy in thoughts. When attention is withdrawn from a thought, it can either be neglected or suppressed. In both cases, the thought can persist in the preconscious, potentially connecting with unconscious wishes and gaining renewed energy, which may lead to its emergence into consciousness.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3131",
+      "id": "FREUD-3131",
+      "title": "Consciousness and Thought Suppression",
+      "text_evidence": "Freud argues that consciousness plays a crucial role in determining which thoughts receive attention and cathexis. When a thought is deemed unworthy or incorrect, it may be suppressed, yet it can still persist in the preconscious, influenced by unconscious desires. This highlights the complex interplay between conscious judgment and unconscious processes.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3132",
+      "id": "FREUD-3132",
+      "title": "Associative Paths of Thought",
+      "text_evidence": "Freud suggests that thoughts follow associative paths, where a purposive idea can lead to the displacement of cathectic energy. If a thought is neglected, it may still resonate within the network of ideas, potentially connecting with unconscious wishes and leading to dream formation or other manifestations.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3133",
+      "id": "FREUD-3133",
+      "title": "Hypercathexis and Conscious Attention",
+      "text_evidence": "Freud introduces the concept of hypercathexis, where a train of thought, once neglected, can attract conscious attention and receive an intensified investment of psychic energy. This process underscores the dynamic nature of thought and the potential for repressed ideas to resurface under certain conditions.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3134",
+      "id": "FREUD-3134",
+      "title": "Inhibition of Excitation and Repression",
+      "text_evidence": "The avoidance of the memory, which is no more than a repetition of the previous flight from the perception, is also facilitated by the fact that the memory, unlike the perception, does not possess enough quality to excite consciousness and thus to attract fresh cathexis to itself. This effortless and regular avoidance by the psychical process of the memory of anything that had once been distressing affords us the prototype and first example of psychical repression.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3135",
+      "id": "FREUD-3135",
+      "title": "Pleasure Principle vs. Reality Principle",
+      "text_evidence": "The first Ψ-system is totally incapable of bringing anything disagreeable into the context of its thought. It is unable to do anything but wish. If things remained at that point, the thought-activity of the second system would be obstructed, since it requires free access to all the memories laid down by experience.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3136",
+      "id": "FREUD-3136",
+      "title": "Role of External Stimuli in Behavior",
+      "text_evidence": "Let us suppose that the primitive apparatus is impinged upon by a perceptual stimulus which is a source of painful excitation. Unco-ordinated motor manifestations will follow until one of them withdraws the apparatus from the perception and at the same time from the pain.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3137",
+      "id": "FREUD-3137",
+      "title": "Memory and Consciousness Dynamics",
+      "text_evidence": "The memory, unlike the perception, does not possess enough quality to excite consciousness and thus to attract fresh cathexis to itself. This indicates a significant dynamic between memory and consciousness in the context of psychological processes.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3138",
+      "id": "FREUD-3138",
+      "title": "Avoidance of Distress in Mental Life",
+      "text_evidence": "Much of this avoidance of what is distressing - this ostrich policy - is still to be seen in the normal mental life of adults. This highlights a fundamental aspect of human psychology where distressing memories are often repressed or avoided.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3139",
+      "id": "FREUD-3139",
+      "title": "Unconscious Influence on Dreams",
+      "text_evidence": "Freud emphasizes the significant role of the unconscious in shaping dreams, indicating that dream-thoughts are often distorted by censorship, which reflects deeper psychological processes. This suggests that dreams are not merely random images but are influenced by unconscious desires and conflicts.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3140",
+      "id": "FREUD-3140",
+      "title": "Sexuality's Role in Dream Analysis",
+      "text_evidence": "Freud acknowledges the importance of sexual ideas in dreams but refrains from a detailed analysis due to the complexities surrounding perversion and bisexuality. He argues against viewing sexual life as shameful, highlighting its relevance to understanding the psyche.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3141",
+      "id": "FREUD-3141",
+      "title": "Dreams and Hysterical Symptoms",
+      "text_evidence": "Freud draws a parallel between the processes involved in dream formation and those observed in hysterical symptoms, suggesting that both are influenced by similar psychological mechanisms. This indicates that understanding dreams can provide insights into broader psychological phenomena.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3142",
+      "id": "FREUD-3142",
+      "title": "Dreams as Non-Pathological Phenomena",
+      "text_evidence": "Freud asserts that dreams do not indicate a pathological state or disturbance in psychical equilibrium. Instead, they are normal psychological processes that reflect the workings of the mind, challenging the notion that dreams are inherently linked to mental illness.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3143",
+      "id": "FREUD-3143",
+      "title": "Censorship in Dream Content",
+      "text_evidence": "Freud discusses the role of psychical censorship in the distortion of dream content, suggesting that this process is crucial for understanding how unconscious thoughts are transformed into dream imagery. This highlights the complexity of the mind's mechanisms in processing desires.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 5"
+      ],
+      "work_id": "PART5",
+      "work_title": "Complete Works Part 5"
+    }
+  ]
+}

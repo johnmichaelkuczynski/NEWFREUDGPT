@@ -66,6 +66,16 @@ try:
 except Exception as e:
     print(f"✗ Freud database (Extended) not available: {e}")
 
+try:
+    print("Loading Freud database (Complete Works Extraction)...")
+    databases['freud_extracted'] = SemanticSearch(
+        'data/FREUD_DATABASE_v10.json', 
+        'data/freud_v10_embeddings.pkl'
+    )
+    print("✓ Freud database (Complete Works Extraction) loaded")
+except Exception as e:
+    print(f"✗ Freud database (Complete Works Extraction) not available: {e}")
+
 if not databases:
     print("ERROR: No databases available!")
 else:
@@ -316,6 +326,7 @@ def build_prompt(question, positions, database='freud', conversation_history='',
     thinker_name = {
         'freud': 'Sigmund Freud',
         'freud_extended': 'Sigmund Freud',
+        'freud_extracted': 'Sigmund Freud',
         'kuczynski': 'J.-M. Kuczynski'
     }.get(database, database.capitalize())
     
