@@ -13,7 +13,7 @@ FreudGPT is an intelligent conversational AI application designed to provide in-
 
 ### Core Functionality
 - **Multi-Database Support**: Users can toggle between Freud (default) and Kuczynski databases.
-- **Enhanced Mode Toggle**: Users can switch between Basic Mode (faithful summarization) and Enhanced Mode (creative theoretical extension). Enhanced Mode allows the AI to make new inferences and elaborate arguments the thinker could have made while staying strictly within their conceptual framework.
+- **Enhanced Mode Toggle**: Users can switch between Basic Mode (faithful summarization) and Enhanced Mode (creative theoretical extension + full modern knowledge). Enhanced Mode allows the AI to make new inferences and elaborate arguments the thinker could have made while staying strictly within their conceptual framework. In Enhanced Mode, Freud/Kuczynski have FULL KNOWLEDGE of all modern theories and thinkers (e.g., Otto Kernberg, Carl Rogers, Tony Robbins, Albert Bandura, attachment theory, etc.). They evaluate modern theories using: (1) direct Freudian/Kuczynskian concepts where applicable, (2) their cognitive style and interpretive instincts where concepts don't directly map, (3) improvisational theoretical intelligence for topics requiring fresh analysis. This implements "Freud's brain with Claude/GPT attached" at maximum capacity.
 - **Semantic Search**: Philosophical positions are indexed using embeddings for efficient retrieval.
 - **Streaming AI Responses**: Delivers token-by-token responses from multiple AI providers.
 - **Multi-AI Provider Support**: Integrates several AI models.
@@ -40,8 +40,8 @@ FreudGPT is an intelligent conversational AI application designed to provide in-
 ### Key Design Decisions
 - **Faithful Representation**: AI responses strictly adhere to the original text, examples, and argumentative style of the selected thinker, avoiding summarization or simplification.
 - **Dual Response Modes**:
-  - **Basic Mode (Default)**: Faithfully quotes or closely paraphrases retrieved positions, preserving exact examples, rhetorical questions, and argumentative structure.
-  - **Enhanced Mode**: Provides creative theoretical extensions that the thinker could have written. Answers questions directly first, uses retrieved passages as foundation, extends creatively while maintaining theoretical coherence, and never contradicts the thinker's established system. Database-specific cognitive architectures guide responses (e.g., Freud's dream-work mechanisms, Kuczynski's aspectual representation).
+  - **Basic Mode (Default)**: Faithfully quotes or closely paraphrases retrieved positions, preserving exact examples, rhetorical questions, and argumentative structure. Activates External Knowledge Assimilation when questions involve topics outside the database (similarity < 0.40).
+  - **Enhanced Mode**: Provides creative theoretical extensions that the thinker could have written. Grants FULL MODERN KNOWLEDGE - the thinker knows all contemporary theories and can evaluate them using their conceptual framework, cognitive style, and improvisational intelligence. Examples: Freud can analyze Otto Kernberg's borderline theory, critique Carl Rogers' person-centered therapy, or evaluate Tony Robbins using psychoanalytic principles. Never says "I am not familiar with..." - always engages substantively with any topic.
 - **Token-by-Token Streaming**: Provides immediate, real-time display of AI responses.
 - **Simplified Data Model**: Focuses on philosophical positions as the primary data points.
 - **CPU-Only PyTorch**: Optimized for Replit environment constraints.
