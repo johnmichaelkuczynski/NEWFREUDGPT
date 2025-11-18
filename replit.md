@@ -52,6 +52,7 @@ FreudGPT is an intelligent conversational AI application designed to provide in-
     - OpenAI
     - DeepSeek
     - Perplexity
+    - Grok (xAI)
 - **Python Libraries**:
     - Flask
     - sentence-transformers
@@ -96,6 +97,8 @@ Dreams, dream interpretation, methodology, symptoms, neurosis, resistance, repre
 Uncanny, doubling, ego-splitting, repetition compulsion, death drive, Thanatos, Eros, instinct dualism, identification, group psychology, ego-ideal, libidinal bonds, narcissism, transference, anxiety, regression, repression, unconscious, sexuality, psychoanalytic theory.
 
 ### Recent Changes
+- **November 18, 2025**: Added Grok (xAI) API support - users can now select Grok models (grok-4.1, grok-4, grok-2, grok-2-mini) as AI provider
+- **November 18, 2025**: Built Freud inference engine - 6,394 rules convert user queries into metapsychological deductions that become "undeniable foundations" for LLM responses. Transforms app from "best Freud impersonator" to "executable Freudian mind"
 - **November 18, 2025**: **FINAL EXPANSION** - Extracted an additional 45 positions from Parts 17-20! Total Complete Works extraction now at **271 positions**. **GRAND TOTAL: 7,249 philosophical positions**.
 - **November 18, 2025**: Parts 17-20 extraction complete - covering Inhibitions/Symptoms/Anxiety (repression mechanisms), Civilization and Its Discontents (Eros/Death instinct duality, cultural super-ego), dream theory and distortion, anti-semitism
 - **November 18, 2025**: Parts 12-16 extraction complete - covering Psycho-Analytic Movement, parapraxes, ego-neurosis dynamics, The Uncanny essay, and The Ego and the Id

@@ -93,6 +93,7 @@ anthropic_client = None
 openai_client = None
 deepseek_client = None
 perplexity_client = None
+grok_client = None
 
 try:
     ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
@@ -132,6 +133,18 @@ try:
 except Exception as e:
     print(f"✗ Could not initialize Perplexity: {e}")
 
+grok_client = None
+try:
+    XAI_API_KEY = os.environ.get("XAI_API_KEY")
+    if XAI_API_KEY and OpenAI:
+        grok_client = OpenAI(
+            api_key=XAI_API_KEY,
+            base_url="https://api.x.ai/v1"
+        )
+        print("✓ Grok (xAI) client initialized")
+except Exception as e:
+    print(f"✗ Could not initialize Grok: {e}")
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -160,6 +173,8 @@ def get_providers():
         providers.append({'id': 'deepseek', 'name': 'DeepSeek', 'models': ['deepseek-chat', 'deepseek-reasoner']})
     if perplexity_client:
         providers.append({'id': 'perplexity', 'name': 'Perplexity', 'models': ['llama-3.1-sonar-large-128k-online', 'llama-3.1-sonar-small-128k-online']})
+    if grok_client:
+        providers.append({'id': 'grok', 'name': 'Grok (xAI)', 'models': ['grok-4.1', 'grok-4', 'grok-2', 'grok-2-mini']})
     return jsonify({'providers': providers})
 
 @app.route('/api/ask', methods=['POST'])
@@ -309,6 +324,23 @@ def ask():
                         return
                     model_name = model or "llama-3.1-sonar-large-128k-online"
                     stream = perplexity_client.chat.completions.create(
+                        model=model_name,
+                        messages=[{"role": "user", "content": prompt}],
+                        stream=True,
+                        max_tokens=2500
+                    )
+                    for chunk in stream:
+                        if chunk.choices[0].delta.content:
+                            full_answer.append(chunk.choices[0].delta.content)
+                            yield f"data: {json.dumps({'type': 'token', 'data': chunk.choices[0].delta.content})}\n\n"
+                
+                elif provider == 'grok':
+                    if not grok_client:
+                        yield f"data: {json.dumps({'type': 'error', 'data': 'Grok (xAI) API key not configured'})}\n\n"
+                        yield f"data: {json.dumps({'type': 'done'})}\n\n"
+                        return
+                    model_name = model or "grok-4.1"
+                    stream = grok_client.chat.completions.create(
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
                         stream=True,
