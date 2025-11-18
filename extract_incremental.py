@@ -105,7 +105,11 @@ def main():
         13: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part13_1763447196429.txt',
         14: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part14_1763447196427.txt',
         15: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part15_1763447196427.txt',
-        16: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part16_1763447196428.txt'
+        16: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part16_1763447196428.txt',
+        17: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part17_1763447331651.txt',
+        18: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part18_1763447331648.txt',
+        19: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part19_1763447331649.txt',
+        20: 'attached_assets/Freud - Complete Works (Over 4000 pages, Most Comprehensive Version Available)_Part20_1763447331650.txt'
     }
     
     filepath = files.get(part_num)

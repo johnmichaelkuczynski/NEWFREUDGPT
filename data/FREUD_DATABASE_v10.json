@@ -4,9 +4,9 @@
     "edition": "COMPLETE_WORKS_EXTRACTION",
     "compilation_date": "2025-11-18",
     "compiler": "LLM Extraction Pipeline",
-    "total_positions": 226,
-    "source_parts": 16,
-    "description": "Philosophical positions extracted from Freud Complete Works (Parts 1-16)"
+    "total_positions": 271,
+    "source_parts": 20,
+    "description": "Philosophical positions extracted from Freud Complete Works (Parts 1-20)"
   },
   "positions": [
     {
@@ -2720,6 +2720,546 @@
       ],
       "work_id": "PART16",
       "work_title": "Complete Works Part 16"
+    },
+    {
+      "position_id": "FREUD-5529",
+      "id": "FREUD-5529",
+      "title": "Anxiety as Reproduced Affective State",
+      "text_evidence": "Anxiety is not newly created in repression; it is reproduced as an affective state in accordance with an already existing mnemic image. Affective states have become incorporated in the mind as precipitates of primaeval traumatic experiences, and when a similar situation occurs they are revived like mnemic symbols.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5530",
+      "id": "FREUD-5530",
+      "title": "Birth as First Experience of Anxiety",
+      "text_evidence": "In man and the higher animals it would seem that the act of birth, as the individual’s first experience of anxiety, has given the affect of anxiety certain characteristic forms of expression. However, we must not lay undue stress on this connection.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5531",
+      "id": "FREUD-5531",
+      "title": "Repression and Super-Ego Dynamics",
+      "text_evidence": "Far too little is known as yet about the background and preliminary stages of repression. There is a danger of over-estimating the part played in repression by the super-ego. The earliest outbreaks of anxiety occur before the super-ego has become differentiated.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5532",
+      "id": "FREUD-5532",
+      "title": "Primal Repression and After-Pressure",
+      "text_evidence": "Most of the repressions with which we have to deal in our therapeutic work are cases of after-pressure. They presuppose the operation of earlier, primal repressions which exert an attraction on the more recent situation.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5533",
+      "id": "FREUD-5533",
+      "title": "Quantitative Factors in Repression",
+      "text_evidence": "It is highly probable that the immediate precipitating causes of primal repressions are quantitative factors such as an excessive degree of excitation and the breaking through of the protective shield against stimuli.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5534",
+      "id": "FREUD-5534",
+      "title": "Symptoms as Repressed Impulses",
+      "text_evidence": "The symptom, being the true substitute for and derivative of the repressed impulse, carries on the role of the latter; it continually renews its demands for satisfaction and thus obliges the ego in its turn to give the signal of unpleasure and put itself in a posture of defence.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5535",
+      "id": "FREUD-5535",
+      "title": "Complexity of Neurotic Illness",
+      "text_evidence": "In a concrete case of neurotic illness the state of affairs is much more complex than one would suppose so long as one was dealing with abstractions. It takes a little time to find one’s bearings and to decide which the repressed impulse is, what substitutive symptom it has found and where the motive for repression lies.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5536",
+      "id": "FREUD-5536",
+      "title": "Fear as a Definite Apprehension",
+      "text_evidence": "Further investigation shows that what he was suffering from was not a vague fear of horses but a quite definite apprehension that a horse was going to bite him. This idea was endeavouring to withdraw from consciousness and get itself replaced by an undefined phobia.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5537",
+      "id": "FREUD-5537",
+      "title": "Anxiety and Its Symptoms",
+      "text_evidence": "The secondary defensive struggle against the symptom takes many shapes. It is fought out on different fields and makes use of a variety of methods. We shall not be able to say much about it until we have made an enquiry into the various different instances of symptom-formation.",
+      "domain": "ANXIETY_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5538",
+      "id": "FREUD-5538",
+      "title": "Inhibition as Ego Defense",
+      "text_evidence": "His inability to go out into the streets was an inhibition, a restriction which his ego had imposed on itself so as not to arouse the anxiety-symptom.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5539",
+      "id": "FREUD-5539",
+      "title": "Repression and Phobia Formation",
+      "text_evidence": "The formation of phobias is closely linked to the process of repression, which can affect both aggressive and tender impulses within the Oedipus complex. In 'Little Hans,' repression targeted his feelings towards both parents, leading to the development of a phobia. This illustrates how repressed emotions can manifest as symptoms, complicating the understanding of neuroses.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5540",
+      "id": "FREUD-5540",
+      "title": "Oedipus Complex Dynamics",
+      "text_evidence": "The Oedipus complex involves both hostile and affectionate feelings towards parents. In the case of 'Little Hans,' his phobia was a result of repressed aggressive impulses towards his father and affectionate feelings towards his mother. This complex interplay of emotions is crucial in understanding childhood neuroses and their manifestations.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5541",
+      "id": "FREUD-5541",
+      "title": "Individual Differences in Repression",
+      "text_evidence": "Despite similarities in the outcomes of phobia formation, individual cases like 'Little Hans' and the Russian patient reveal significant differences in the underlying dynamics of repression. Each case illustrates how personal history and emotional development can lead to distinct manifestations of neuroses, emphasizing the complexity of psychological analysis.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5542",
+      "id": "FREUD-5542",
+      "title": "Fear of Castration as a Repressive Force",
+      "text_evidence": "In both 'Little Hans' and the Russian patient, the fear of impending castration emerged as a common motive force behind repression. This fear influenced their emotional development and the formation of phobias, highlighting the central role of this anxiety in psychoanalytic theory.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5543",
+      "id": "FREUD-5543",
+      "title": "Complexity of Symptom Formation",
+      "text_evidence": "The analysis of childhood neuroses reveals that symptom formation is often not straightforward. The presence of multiple repressions and the regression of emotions complicate the understanding of symptoms, indicating that even simple cases can involve intricate psychological processes.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 17"
+      ],
+      "work_id": "PART17",
+      "work_title": "Complete Works Part 17"
+    },
+    {
+      "position_id": "FREUD-5729",
+      "id": "FREUD-5729",
+      "title": "Repression Transforms Instincts into Symptoms",
+      "text_evidence": "When an instinctual trend undergoes repression, its libidinal elements are turned into symptoms, and its aggressive components into a sense of guilt. This transformation illustrates the psychological consequences of repressed instincts, highlighting the interplay between the conscious and unconscious mind.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5730",
+      "id": "FREUD-5730",
+      "title": "Eros and Death Instinct in Civilization",
+      "text_evidence": "The struggle between Eros and the death instinct characterizes the process of civilization and individual development. This duality reflects the fundamental forces driving human behavior and societal evolution, suggesting that both processes share a vital characteristic of life.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5731",
+      "id": "FREUD-5731",
+      "title": "Civilization Mirrors Individual Development",
+      "text_evidence": "The process of civilization and the developmental process of individuals are very similar in nature, both aiming at integration—one of individuals into a community and the other of a community from individuals. This analogy suggests that the mechanisms of development are consistent across different scales.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5732",
+      "id": "FREUD-5732",
+      "title": "Pleasure Principle in Individual Development",
+      "text_evidence": "In the developmental process of the individual, the pleasure principle, which seeks the satisfaction of happiness, remains the main aim. This principle underscores the importance of personal fulfillment in the context of social integration.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5733",
+      "id": "FREUD-5733",
+      "title": "Human Judgements Reflect Wishes for Happiness",
+      "text_evidence": "Freud posits that human judgments of value are directly influenced by individual desires for happiness, suggesting that these judgments serve to bolster personal illusions with rational arguments. This indicates a fundamental link between subjective happiness and the way people evaluate their experiences and the world around them.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5734",
+      "id": "FREUD-5734",
+      "title": "Cultural Development vs. Human Aggression",
+      "text_evidence": "Freud raises the question of whether humanity's cultural evolution can effectively manage the inherent instincts of aggression and self-destruction. He suggests that the current state of human civilization, with its technological advancements, poses a significant risk of self-extermination, highlighting the tension between cultural progress and primal instincts.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5735",
+      "id": "FREUD-5735",
+      "title": "Fetishism as a Non-Symptomatic Condition",
+      "text_evidence": "Freud observes that individuals with fetishistic desires often do not seek analysis due to suffering; instead, they may find satisfaction in their fetishes, which complicates the understanding of such behaviors as purely pathological. This challenges the notion of fetishism as a symptom of an underlying ailment.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5736",
+      "id": "FREUD-5736",
+      "title": "Illusions and Human Desires",
+      "text_evidence": "Freud acknowledges that humans often seek consolation through their desires and illusions, suggesting that the pursuit of happiness can lead to a distorted view of reality. This reflects a broader philosophical inquiry into the nature of human motivation and the psychological mechanisms that underpin it.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5737",
+      "id": "FREUD-5737",
+      "title": "Castration Anxiety and Disavowal",
+      "text_evidence": "Freud discusses the complex interplay between the disavowal and acknowledgment of castration, particularly in the context of fetishism. He suggests that individuals may simultaneously hold contradictory beliefs about castration, which can manifest in behaviors such as those seen in the 'coupeur de nattes'. This reflects a deeper psychological struggle regarding gender and power dynamics.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5738",
+      "id": "FREUD-5738",
+      "title": "Fetishism as Psychological Projection",
+      "text_evidence": "Freud posits that the normal prototype of fetishes is a man's penis, while inferior organs are represented by a woman's clitoris. This indicates that fetishism is not merely a sexual phenomenon but a projection of deeper psychological conflicts regarding sexuality and identity.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5739",
+      "id": "FREUD-5739",
+      "title": "Humor as Economic Pleasure",
+      "text_evidence": "In his analysis of humor, Freud argues that the pleasure derived from humor arises from an economy of emotional expenditure. He identifies two modes of humor: one where the subject creates humor for themselves and another where an observer finds humor in the actions of others, suggesting a complex interplay between self and social dynamics in humor.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5740",
+      "id": "FREUD-5740",
+      "title": "Cultural Fetishism and Submission",
+      "text_evidence": "Freud draws parallels between individual fetishism and cultural practices, such as the Chinese custom of foot binding. He suggests that such practices reflect a societal acknowledgment of castration and submission, where the male gaze fetishizes the mutilated female body as a form of reverence.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 18"
+      ],
+      "work_id": "PART18",
+      "work_title": "Complete Works Part 18"
+    },
+    {
+      "position_id": "FREUD-5929",
+      "id": "FREUD-5929",
+      "title": "Importance of Dream Interpretation",
+      "text_evidence": "I was faced by the task of ‘interpreting dreams’ in a way that could stand up against scientific criticism. People dream about the things that have engaged their minds during the waking day. Dreams were only a substitute for a rational process of thought and could be interpreted.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5930",
+      "id": "FREUD-5930",
+      "title": "Dreams Reflect Waking Life",
+      "text_evidence": "People dream about the things that have engaged their minds during the waking day. This indicates that dreams are not random but are connected to our waking thoughts and experiences.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5931",
+      "id": "FREUD-5931",
+      "title": "Distortion in Dream Processes",
+      "text_evidence": "What needed explaining was the fact of the distortion which the dream-work had carried out upon the rational and intelligible material. Dream-distortion was the profoundest and most difficult problem of dream life.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5932",
+      "id": "FREUD-5932",
+      "title": "Role of Dreams in Psychological Functioning",
+      "text_evidence": "Dreams serve to allay impulses that seek to disturb sleep, indicating their role in maintaining psychological balance and facilitating rest.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5933",
+      "id": "FREUD-5933",
+      "title": "Scientific Approach to Dreams",
+      "text_evidence": "I succeeded in answering most of the questions which could be raised by an interpretation of dreams, confirming views that had already been put forward while also introducing new hypotheses.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5934",
+      "id": "FREUD-5934",
+      "title": "Conservative Nature of Instincts",
+      "text_evidence": "The governing thought of Ferenczi's work emphasizes the conservative nature of the instincts, which seek to re-establish every state of things that has been abandoned due to external interference. This suggests that instincts are not merely reactive but are driven by a desire to return to a previous state of equilibrium.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5935",
+      "id": "FREUD-5935",
+      "title": "Psychoanalysis and Biology Interconnected",
+      "text_evidence": "Ferenczi's 'Versuch einer Genitaltheorie' applies psychoanalytic insights to the biology of sexual processes, indicating a deep connection between psychological and biological phenomena. This bold application suggests that understanding sexual life requires an integration of both psychoanalytic and biological perspectives.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5936",
+      "id": "FREUD-5936",
+      "title": "Emotional Needs in Therapy",
+      "text_evidence": "Ferenczi's later work reflects a shift towards recognizing the paramount need to cure and help patients through emotional connection, particularly by providing the love they longed for as children. This highlights the importance of emotional fulfillment in therapeutic settings.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5937",
+      "id": "FREUD-5937",
+      "title": "Symbols as Evidence of Ancient Connections",
+      "text_evidence": "The recognition of symbols as evidence of ancient connections suggests that psychological phenomena are deeply rooted in our biological and evolutionary history. This perspective encourages a comprehensive view of human psychology that acknowledges its historical and biological underpinnings.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5938",
+      "id": "FREUD-5938",
+      "title": "Future of Bio-Analysis",
+      "text_evidence": "Ferenczi's work hints at the potential for a future discipline of 'bio-analysis,' which would integrate psychoanalytic principles with biological understanding. This forward-looking perspective suggests that the field of psychoanalysis may evolve to encompass broader biological insights.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5939",
+      "id": "FREUD-5939",
+      "title": "Incredulity Towards Happiness",
+      "text_evidence": "Incredulity arises not only in response to negative events but also paradoxically in the face of positive ones. This suggests that individuals may struggle to accept happiness due to an internalized belief that they do not deserve it, leading to a rejection of pleasurable experiences.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5940",
+      "id": "FREUD-5940",
+      "title": "Wrecked by Success",
+      "text_evidence": "Some individuals experience illness or emotional breakdown not from frustration or unmet desires, but rather from the overwhelming fulfillment of their wishes. This indicates a complex relationship between desire, fulfillment, and psychological well-being.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5941",
+      "id": "FREUD-5941",
+      "title": "Internal vs. External Frustration",
+      "text_evidence": "The distinction between external frustration and internal frustration is crucial. When external frustrations are absent, internal ones can dominate, leading individuals to reject happiness and cling to dissatisfaction, reflecting a deeper psychological conflict.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5942",
+      "id": "FREUD-5942",
+      "title": "Pessimism and Self-Worth",
+      "text_evidence": "A pervasive sense of pessimism can manifest as a belief that one is unworthy of happiness. This internalized guilt or inferiority can prevent individuals from accepting positive outcomes, suggesting a deep-seated conflict between self-perception and external reality.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-5943",
+      "id": "FREUD-5943",
+      "title": "Materialization of Conscience",
+      "text_evidence": "The expectation that fate will treat us poorly is often a projection of our own conscience. This reflects how internal moral judgments can shape our perceptions of external events, influencing our emotional responses to both success and failure.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 19"
+      ],
+      "work_id": "PART19",
+      "work_title": "Complete Works Part 19"
+    },
+    {
+      "position_id": "FREUD-6129",
+      "id": "FREUD-6129",
+      "title": "Impact of Anti-Semitism on Identity",
+      "text_evidence": "Freud reflects on his personal experiences with anti-Semitism, noting how it has affected his life and work. He emphasizes the destruction of his scientific contributions and the expulsion of his children from their professions, highlighting the profound impact of societal prejudice on individual identity and legacy.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 20"
+      ],
+      "work_id": "PART20",
+      "work_title": "Complete Works Part 20"
+    },
+    {
+      "position_id": "FREUD-6130",
+      "id": "FREUD-6130",
+      "title": "Persecution and Sympathy",
+      "text_evidence": "Freud questions whether the current persecution of Jews should evoke a wave of sympathy from non-Jewish individuals. He suggests that rather than remaining silent, there should be a collective acknowledgment of suffering and a call for empathy in the face of injustice.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 20"
+      ],
+      "work_id": "PART20",
+      "work_title": "Complete Works Part 20"
+    },
+    {
+      "position_id": "FREUD-6131",
+      "id": "FREUD-6131",
+      "title": "Personal Involvement in Discourse",
+      "text_evidence": "Freud argues for the importance of including voices that are personally affected by issues like anti-Semitism in public discourse. He challenges the notion that non-Jewish perspectives should dominate discussions about Jewish suffering, advocating for the representation of those directly impacted.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 20"
+      ],
+      "work_id": "PART20",
+      "work_title": "Complete Works Part 20"
     }
   ]
 }
