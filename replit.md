@@ -1,7 +1,7 @@
 # FreudGPT - Multi-Philosopher AI Assistant
 
 ## Overview
-FreudGPT is an intelligent conversational AI application designed to provide in-depth, streaming responses based on the works of various philosophers. It leverages semantic search over comprehensive philosophical databases to accurately reflect the original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default) and Kuczynski, with a total of **7,049 philosophical positions** (3,792 Freud Primary + 2,328 Freud Extended + 71 Freud Complete Works Extraction + 858 Kuczynski). The overarching vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry to expand intellectual discourse and understanding.
+FreudGPT is an intelligent conversational AI application designed to provide in-depth, streaming responses based on the works of various philosophers. It leverages semantic search over comprehensive philosophical databases to accurately reflect the original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default) and Kuczynski, with a total of **7,133 philosophical positions** (3,792 Freud Primary + 2,328 Freud Extended + 155 Freud Complete Works Extraction + 858 Kuczynski). The overarching vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry to expand intellectual discourse and understanding.
 
 ## User Preferences
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
@@ -30,7 +30,7 @@ FreudGPT is an intelligent conversational AI application designed to provide in-
 - **Data Management**: Philosophical positions for Kuczynski and Freud are stored in JSON files:
   - FREUD_DATABASE.json: 3,792 positions (Primary collection)
   - FREUD_DATABASE_v9.json: 2,328 positions (Extended collection)
-  - FREUD_DATABASE_v10.json: 71 positions (Complete Works extraction)
+  - FREUD_DATABASE_v10.json: 155 positions (Complete Works extraction from Parts 1-11)
   - KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json: 858 positions
   - Pre-computed embeddings are cached for each database. Full source texts for Freud's works are available in `texts/freud/`.
 - **Conversation Storage**: Session-scoped in-memory storage with auto-pruning.
@@ -91,8 +91,8 @@ Dreams, dream interpretation, methodology, symptoms, neurosis, resistance, repre
 Uncanny, doubling, ego-splitting, repetition compulsion, death drive, Thanatos, Eros, instinct dualism, identification, group psychology, ego-ideal, libidinal bonds, narcissism, transference, anxiety, regression, repression, unconscious, sexuality, psychoanalytic theory.
 
 ### Recent Changes
-- **November 18, 2025**: **MAJOR MILESTONE** - Automated extraction pipeline built and deployed! Successfully extracted 71 new philosophical positions from raw Freud Complete Works text files (Parts 1-5) using LLM-based extraction. Total database now contains 7,049 positions.
-- **November 18, 2025**: Created FREUD_DATABASE_v10.json with positions extracted from Complete Works covering unconscious mind, dreams, psychosexual development, defense mechanisms, Oedipus complex, and more
+- **November 18, 2025**: **MAJOR MILESTONE** - Automated extraction pipeline built and deployed! Successfully extracted 155 philosophical positions from raw Freud Complete Works text files (Parts 1-11) using LLM-based extraction. Total database now contains **7,133 positions**.
+- **November 18, 2025**: Created FREUD_DATABASE_v10.json with positions extracted from Complete Works covering unconscious mind, dreams, psychosexual development, defense mechanisms, Oedipus complex, psychopathology, delusions, taboo of virginity, Little Hans phobia analysis, and more
 - **November 18, 2025**: Enhanced Mode feature added - users can toggle between Basic Mode (faithful summarization) and Enhanced Mode (creative theoretical extension)
 - **November 18, 2025**: Part 11 integration complete - added final Introductory Lectures (XXV-XXVIII) covering anxiety, narcissism, transference, and analytic therapy
 - **November 18, 2025**: Part 12 integration complete - added 351 positions from Introductory Lectures XVI-XXIV covering neurosis theory, infantile sexuality, Oedipus complex, libido development, and symptom formation

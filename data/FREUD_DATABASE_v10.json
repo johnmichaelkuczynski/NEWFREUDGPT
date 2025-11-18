@@ -4,9 +4,9 @@
     "edition": "COMPLETE_WORKS_EXTRACTION",
     "compilation_date": "2025-11-18",
     "compiler": "LLM Extraction Pipeline",
-    "total_positions": 71,
-    "source_parts": 5,
-    "description": "New philosophical positions extracted from Freud Complete Works raw text files"
+    "total_positions": 155,
+    "source_parts": 11,
+    "description": "Philosophical positions extracted from Freud Complete Works (Parts 1-11)"
   },
   "positions": [
     {
@@ -860,6 +860,1014 @@
       ],
       "work_id": "PART5",
       "work_title": "Complete Works Part 5"
+    },
+    {
+      "position_id": "FREUD-3329",
+      "id": "FREUD-3329",
+      "title": "Psychical Power of Hatred",
+      "text_evidence": "Freud suggests that the psychical power of hatred can manifest in physical symptoms, indicating that our emotional states can influence our perception and experiences. He illustrates this with personal anecdotes about objects losing their functionality after falling out with significant people, implying a deeper connection between emotions and physical reality.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3330",
+      "id": "FREUD-3330",
+      "title": "Symptomatic Acts Reveal Inner Life",
+      "text_evidence": "Freud posits that symptomatic acts, such as gestures and behaviors, can provide insight into a person's inner life and emotional state. He references literary examples to support the idea that subtle actions can reveal significant psychological truths about individuals, suggesting that our unconscious mind often communicates through these unnoticed behaviors.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3331",
+      "id": "FREUD-3331",
+      "title": "Imagination's Role in Psychoanalysis",
+      "text_evidence": "Freud acknowledges that imaginative writers have often captured the complexities of human psychology before psychoanalysis formalized these ideas. He emphasizes the importance of creativity and imagination in understanding human behavior, suggesting that literature can illuminate psychological concepts that are otherwise difficult to articulate.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3332",
+      "id": "FREUD-3332",
+      "title": "Influence of Repressed Memories",
+      "text_evidence": "Freud discusses how repressed memories can distort one's recollection of events, leading to errors that are not merely due to ignorance but are influenced by the act of repression itself. This indicates that our memories are not just factual records but are shaped by our psychological state and unresolved conflicts.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3333",
+      "id": "FREUD-3333",
+      "title": "Errors as Psychological Indicators",
+      "text_evidence": "Freud illustrates that errors in memory or recounting events can serve as indicators of deeper psychological issues, such as repression. These errors are not random but are linked to the individual's inner conflicts and suppressed desires, revealing the complex interplay between memory and the unconscious mind.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3334",
+      "id": "FREUD-3334",
+      "title": "Impact of Family Dynamics",
+      "text_evidence": "Freud reflects on how familial relationships, particularly the dynamics between generations, can influence one's identity and perceptions. He notes that his own understanding of his place in relation to his father and brother shaped his thoughts and writings, highlighting the significance of family in psychological development.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3335",
+      "id": "FREUD-3335",
+      "title": "Concealment and Distortion in Analysis",
+      "text_evidence": "Freud emphasizes that intentional concealment or distortion of memories during analysis can lead to inaccuracies in recounting experiences. This suggests that the therapeutic process is not just about uncovering truths but also navigating the complexities of what is consciously shared versus what is repressed.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3336",
+      "id": "FREUD-3336",
+      "title": "Phantasies and Identity Formation",
+      "text_evidence": "Freud's reflections on his phantasies about being born to a different parent illustrate how such imaginings can shape one's identity and self-perception. This highlights the role of fantasy in psychological development and the formation of personal narratives.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3337",
+      "id": "FREUD-3337",
+      "title": "Unconscious Desires Influence Behavior",
+      "text_evidence": "Freud illustrates how unconscious desires can manifest in our actions, as seen in the anecdote where he inadvertently boards the wrong tram. This error reflects a suppressed wish to avoid accepting a fee from a patient, demonstrating that our unconscious motivations can direct our behavior, even against our conscious intentions.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3338",
+      "id": "FREUD-3338",
+      "title": "Symbolism in Everyday Errors",
+      "text_evidence": "Freud's analysis of everyday mistakes, such as taking the wrong train, suggests that these errors are not random but rather symbolic expressions of repressed thoughts or feelings. This perspective emphasizes the significance of seemingly trivial actions as windows into the unconscious mind.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3339",
+      "id": "FREUD-3339",
+      "title": "Conflict Between Duty and Desire",
+      "text_evidence": "The narrative highlights the internal conflict between Freud's sense of duty to his brother and his unconscious desire to avoid the financial transaction with his patient. This tension illustrates the broader theme of how personal obligations can clash with deeper, often unacknowledged, desires.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3340",
+      "id": "FREUD-3340",
+      "title": "Psychoanalysis Reveals Hidden Motivations",
+      "text_evidence": "Freud's recounting of his experiences serves as a demonstration of how psychoanalysis can uncover hidden motivations behind our actions. The missteps he describes are not mere accidents but rather insights into the complexities of human psychology and the interplay of conscious and unconscious thought.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 6"
+      ],
+      "work_id": "PART6",
+      "work_title": "Complete Works Part 6"
+    },
+    {
+      "position_id": "FREUD-3529",
+      "id": "FREUD-3529",
+      "title": "Influence of Early Childhood Experiences",
+      "text_evidence": "Freud emphasizes the significant role of early childhood experiences in shaping an individual's psychological development. He posits that these experiences interact with one's innate constitution, leading to various outcomes in sexual development and potential neuroses. This interaction is crucial in understanding the aetiology of psychological issues.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3530",
+      "id": "FREUD-3530",
+      "title": "Sexual Precocity and Neurosis",
+      "text_evidence": "Freud identifies sexual precocity as a factor in the development of neuroses, suggesting that early sexual manifestations can disrupt the latency period of childhood. This disruption can lead to perversions and complicate the later control of sexual instincts, highlighting the importance of timing in sexual development.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3531",
+      "id": "FREUD-3531",
+      "title": "Regression in Sexual Development",
+      "text_evidence": "Freud argues that factors impairing sexual development can cause regression, where individuals revert to earlier developmental phases. This regression can manifest as neurotic symptoms, indicating that unresolved issues from earlier stages can have lasting impacts on psychological health.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3532",
+      "id": "FREUD-3532",
+      "title": "Temporal Sequence of Instinctual Impulses",
+      "text_evidence": "Freud notes that the order and timing of instinctual impulses are phylogenetically determined and can influence psychological outcomes. Variations in this sequence and duration can significantly affect an individual's development, suggesting that timing is critical in the emergence of psychological traits.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3533",
+      "id": "FREUD-3533",
+      "title": "Interplay of Disposition and Trauma",
+      "text_evidence": "Freud introduces the concept of aetiological series, distinguishing between dispositional factors and definitive experiences. He posits that both innate dispositions and traumatic experiences interact to shape psychological outcomes, emphasizing the complexity of human development.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3534",
+      "id": "FREUD-3534",
+      "title": "Psychoanalysis vs. Hypnosis",
+      "text_evidence": "Freud argues that the technique of psycho-analysis is superior to hypnosis because it does not merely evade resistance but seeks to understand the underlying psychical forces. Hypnosis may yield only transitory success and incomplete information, whereas psychoanalysis aims to make the unconscious accessible to consciousness by overcoming resistances.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3535",
+      "id": "FREUD-3535",
+      "title": "Goal of Psychoanalytic Treatment",
+      "text_evidence": "The primary task of psychoanalytic treatment is to remove amnesias and undo repressions, thereby making the unconscious accessible to consciousness. This process aims to restore the patient's ability to lead an active life and enjoy it, highlighting that health and sickness are not fundamentally different but exist on a continuum.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3536",
+      "id": "FREUD-3536",
+      "title": "Resistance in Psychoanalysis",
+      "text_evidence": "Freud emphasizes that resistance is a crucial element in psychoanalysis, as it obstructs the physician's insight into the patient's mental processes. The psychoanalytic method seeks to confront and understand these resistances rather than avoid them, which is a limitation of hypnosis.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3537",
+      "id": "FREUD-3537",
+      "title": "Nature of Mental Health",
+      "text_evidence": "Freud posits that mental health and illness are not distinct entities but rather exist on a quantitative spectrum. The goal of treatment is not to achieve an ideal state of health but to facilitate significant improvement in the patient's mental condition, even if symptoms persist.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3538",
+      "id": "FREUD-3538",
+      "title": "Universal Application of Psychoanalysis",
+      "text_evidence": "While Freud acknowledges that the psychoanalytic method can be applied to various clinical pictures, he also notes that it has limitations. The method is not universally applicable and must be tailored to the individual's specific indications and contraindications.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3539",
+      "id": "FREUD-3539",
+      "title": "Limitations of Suggestion in Therapy",
+      "text_evidence": "Freud expresses skepticism about the effectiveness of suggestion in hypnosis, noting that it often fails to produce lasting cures. He argues that the suggestions applied tend to crumble, leading to a recurrence of the illness or its manifestations, indicating that deeper mental forces are at play that must be understood for effective treatment.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3540",
+      "id": "FREUD-3540",
+      "title": "Importance of Understanding Resistance",
+      "text_evidence": "Freud emphasizes the significance of recognizing the resistance patients exhibit towards their own recovery. He believes that this resistance is crucial for understanding their behavior in daily life, suggesting that insight into these mental forces is essential for effective psychotherapy.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3541",
+      "id": "FREUD-3541",
+      "title": "Complexity of Psychoanalytic Technique",
+      "text_evidence": "Freud critiques the misconception that psychoanalysis is an easy technique that can be performed without proper training. He highlights the necessity of understanding the intricacies of mental treatment, comparing it to the requirement of knowledge in histological techniques for examining physical ailments.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3542",
+      "id": "FREUD-3542",
+      "title": "Misunderstanding of Psychoanalysis",
+      "text_evidence": "Freud points out that many colleagues fail to grasp the depth of psychoanalysis, as evidenced by their lack of inquiry into his methods. He suggests that this oversight leads to a superficial approach to mental health treatment, potentially harming patients rather than helping them.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3543",
+      "id": "FREUD-3543",
+      "title": "The Role of Insight in Recovery",
+      "text_evidence": "Freud argues that the process of uncovering the origins of an illness is not straightforward and requires significant insight. He believes that understanding the underlying mental forces is essential for removing the manifestations of illness, indicating a deeper layer of psychological complexity.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 7"
+      ],
+      "work_id": "PART7",
+      "work_title": "Complete Works Part 7"
+    },
+    {
+      "position_id": "FREUD-3729",
+      "id": "FREUD-3729",
+      "title": "Dreams as Wish Fulfillment",
+      "text_evidence": "Freud posits that dreams are essentially fulfilled wishes of the dreamer, representing desires that are often repressed during waking life. This notion challenges the scientific dismissal of dreams as mere physiological processes, suggesting instead that they hold significant psychological meaning.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3730",
+      "id": "FREUD-3730",
+      "title": "Interpretation of Dreams",
+      "text_evidence": "Freud argues that dreams can and should be interpreted, as they reveal deeper psychological truths about the individual. He defends this position against the prevailing scientific view that dismisses dreams as meaningless, advocating for a return to the belief in their interpretive value.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3731",
+      "id": "FREUD-3731",
+      "title": "Science vs. Superstition",
+      "text_evidence": "Freud acknowledges the tension between scientific rationality and the ancient belief in the interpretability of dreams. He positions himself as a defender of the idea that dreams can have meaning, even while rejecting the notion that they predict the future.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3732",
+      "id": "FREUD-3732",
+      "title": "Dreams and Future Aspirations",
+      "text_evidence": "Freud suggests that dreams, while often representing fulfilled wishes, are predominantly oriented towards future aspirations. This perspective implies that understanding dreams can provide insight into an individual's hopes and intentions.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3733",
+      "id": "FREUD-3733",
+      "title": "Critique of Physiological Explanations",
+      "text_evidence": "Freud critiques the scientific explanation of dreams as purely physiological events devoid of meaning. He argues that this view overlooks the complex mental processes at play during dreaming, which are essential for understanding human psychology.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3734",
+      "id": "FREUD-3734",
+      "title": "Imagination vs. Intellect",
+      "text_evidence": "Freud suggests that the division between imagination and intellect can lead an individual to become either an artist or a neurotic. This dichotomy highlights the tension between creative impulses and rational thought, suggesting that those who are overly absorbed in intellectual pursuits may lose touch with the emotional and imaginative aspects of life.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3735",
+      "id": "FREUD-3735",
+      "title": "Dreams as Pathways to Desire",
+      "text_evidence": "Freud posits that dreams can reveal hidden desires and impulses that are often repressed in waking life. The character's dream about Gradiva serves as a manifestation of his unconscious feelings, illustrating how dreams can serve as a bridge to understanding one's deeper emotional needs and conflicts.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3736",
+      "id": "FREUD-3736",
+      "title": "Isolation and Human Connection",
+      "text_evidence": "The character's isolation and focus on academic pursuits reflect a broader theme in Freud's work regarding the struggle between individual desires and the need for human connection. His eventual desire to travel suggests a yearning for engagement with the world, indicating that isolation can lead to a disconnect from one's emotional life.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3737",
+      "id": "FREUD-3737",
+      "title": "Fantasy and Reality Interplay",
+      "text_evidence": "Freud illustrates how fantasy can intertwine with reality, as seen in the character's obsession with the figure of Gradiva. This interplay can lead to delusions that influence behavior, suggesting that the boundaries between imagination and reality are often blurred, particularly in individuals with rich inner lives.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3738",
+      "id": "FREUD-3738",
+      "title": "Cultural Influences on Behavior",
+      "text_evidence": "Freud's analysis of the character's behavior reflects the impact of cultural and familial expectations on individual identity. The character's pre-ordained path as an archaeologist highlights how societal norms can shape personal aspirations and emotional experiences, often leading to internal conflict.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3739",
+      "id": "FREUD-3739",
+      "title": "The Nature of Bodily Apparitions",
+      "text_evidence": "Freud explores the concept of bodily apparitions, questioning how a being can be both dead and alive. This duality reflects the complexities of human perception and the interplay between reality and imagination.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3740",
+      "id": "FREUD-3740",
+      "title": "Delusion and Reality Interaction",
+      "text_evidence": "The interaction between Hanold and Gradiva illustrates how delusions can be engaged with without contradiction. This suggests that the therapeutic process may involve validating a patient's experiences while guiding them toward reality.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3741",
+      "id": "FREUD-3741",
+      "title": "Symbolism in Dreams",
+      "text_evidence": "Freud emphasizes the significance of symbols in dreams, as seen in Hanold's dream of Gradiva's demise. This highlights the importance of understanding the underlying meanings of dream content in psychoanalysis.",
+      "domain": "DREAM_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3742",
+      "id": "FREUD-3742",
+      "title": "The Role of Memory in Identity",
+      "text_evidence": "The character's recollection of Gradiva and the marble relief signifies how memory shapes identity and perception. Freud suggests that our understanding of self is deeply intertwined with our memories and experiences.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3743",
+      "id": "FREUD-3743",
+      "title": "Engagement with the Past",
+      "text_evidence": "The protagonist's obsession with Gradiva reflects a broader theme of how individuals engage with their past. Freud posits that this engagement can influence present behavior and emotional states.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 8"
+      ],
+      "work_id": "PART8",
+      "work_title": "Complete Works Part 8"
+    },
+    {
+      "position_id": "FREUD-3929",
+      "id": "FREUD-3929",
+      "title": "Oedipus Complex in Childhood",
+      "text_evidence": "Hans confirms the existence of the Oedipus complex, where a child harbors a desire to eliminate the father to gain intimacy with the mother. This complex is evident in Hans's wish for his father to be 'out of the way' to be alone with his mother, illustrating the child's sexual relations with parents.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3930",
+      "id": "FREUD-3930",
+      "title": "Death Wishes and Fear",
+      "text_evidence": "The transformation of Hans's wish for his father to be 'dead' into a fear of being bitten by a horse shows how repressed desires can manifest as phobias. This illustrates the complex interplay between wishes and fears in the psyche of a child.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3931",
+      "id": "FREUD-3931",
+      "title": "Aggression and Affection in Children",
+      "text_evidence": "Hans's case demonstrates that children can possess both aggressive tendencies and affectionate dispositions. His capacity for kindness and empathy, even in the presence of aggressive impulses, highlights the dual nature of human emotions in childhood development.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3932",
+      "id": "FREUD-3932",
+      "title": "Suppressed Sadism in Analysis",
+      "text_evidence": "The emergence of suppressed sadism during Hans's analysis indicates that repressed aggressive tendencies can surface in various contexts. This suggests that understanding these suppressed feelings is crucial for effective psychoanalytic treatment.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3933",
+      "id": "FREUD-3933",
+      "title": "Contradictory Emotions Towards Parents",
+      "text_evidence": "Hans's simultaneous feelings of love and aggression towards his father exemplify the complexity of familial relationships. This contradiction reveals the intricate emotional landscape of children, where love and hostility can coexist.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3934",
+      "id": "FREUD-3934",
+      "title": "Sexual Excitement and Anxiety",
+      "text_evidence": "Freud suggests that a child's sexual excitement can transform into anxiety, as seen in the case of a boy who attempted to seduce his mother. The transition from excitement to anxiety may stem from various factors, including maternal rejection or the revival of earlier impressions. This highlights the complex interplay between sexual desires and emotional responses.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3935",
+      "id": "FREUD-3935",
+      "title": "Role of Parental Influence",
+      "text_evidence": "Freud emphasizes the significant role of parental guidance in shaping a child's understanding of their emotions and fears. In the case of the boy, his parents attributed his anxiety to masturbation, which influenced his perception of his fears, indicating that parental interventions can impact a child's psychological development.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3936",
+      "id": "FREUD-3936",
+      "title": "Repressed Wishes and Phantasies",
+      "text_evidence": "Freud posits that repressed wishes can manifest in phantasies, as illustrated by the boy's desire to see his mother's 'widdler.' This reflects the unconscious mental processes at play, where repressed desires surface in symbolic forms, revealing deeper psychological conflicts.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3937",
+      "id": "FREUD-3937",
+      "title": "Castration Anxiety",
+      "text_evidence": "Freud discusses the concept of castration anxiety, which can have delayed effects on a child's psyche. The threat of castration made by the mother influenced the boy's fears and fantasies, demonstrating how early experiences can shape later psychological issues.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3938",
+      "id": "FREUD-3938",
+      "title": "Symbolism in Fear",
+      "text_evidence": "Freud illustrates how a child's fear of horses can symbolize deeper anxieties related to his sexual development and familial relationships. The boy's fear is not merely about horses but is intertwined with his repressed sexual feelings and the warnings he received from his parents.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3939",
+      "id": "FREUD-3939",
+      "title": "Phobia as Repressed Desire",
+      "text_evidence": "Hans's transformation of libido into anxiety projected onto horses illustrates how repressed desires can manifest as phobias. The initial pleasure associated with horses turned into fear due to the repression of underlying feelings, demonstrating the complex interplay between desire and anxiety in psychological development.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3940",
+      "id": "FREUD-3940",
+      "title": "Role of Parental Influence",
+      "text_evidence": "The analysis reveals that Hans's father played a crucial role in uncovering the origins of Hans's phobia. This highlights the significant impact of parental figures on a child's psychological development and the formation of complexes, suggesting that familial relationships are central to understanding individual psychopathology.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3941",
+      "id": "FREUD-3941",
+      "title": "Symbolism in Childhood Behavior",
+      "text_evidence": "The connection between Hans's fear of horses and his earlier experiences with his father and playmate illustrates the use of symbolism in childhood behavior. The transformation of pleasurable experiences into fear through symbolic associations emphasizes the importance of understanding these symbols in therapeutic analysis.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3942",
+      "id": "FREUD-3942",
+      "title": "Confluence of Instincts",
+      "text_evidence": "Hans's interest in accompanying his mother to the W.C. reflects a confluence of instincts, where sexual and aggressive impulses intertwine with basic bodily functions. This notion suggests that human behavior is often driven by complex, overlapping instincts that require careful analysis to understand fully.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-3943",
+      "id": "FREUD-3943",
+      "title": "Repression and Anxiety",
+      "text_evidence": "The process of repression leading to anxiety is evident in Hans's case, where pleasurable associations with horses were repressed, resulting in fear. This illustrates Freud's theory that repressed emotions and desires can lead to psychological disturbances, emphasizing the need for uncovering these repressed elements in therapy.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 9"
+      ],
+      "work_id": "PART9",
+      "work_title": "Complete Works Part 9"
+    },
+    {
+      "position_id": "FREUD-4129",
+      "id": "FREUD-4129",
+      "title": "Frigidity as Neurotic Inhibition",
+      "text_evidence": "Frigidity may then become established as a neurotic inhibition or provide the foundation for the development of other neuroses and even a moderate diminution of potency in the man will greatly contribute to help this process.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4130",
+      "id": "FREUD-4130",
+      "title": "Castration Complex in Females",
+      "text_evidence": "We include this ‘envy for the penis’ in the ‘castration complex’. If we understand ‘masculine’ as including the idea of wishing to be masculine, then the designation ‘masculine protest’ fits this behaviour.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4131",
+      "id": "FREUD-4131",
+      "title": "Cultural Practices and Sexuality",
+      "text_evidence": "The customs of primitive peoples seem to take account of this motif of the early sexual wish by handing over the task of defloration to an elder, priest or holy man, that is, to a substitute for the father.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4132",
+      "id": "FREUD-4132",
+      "title": "Influence of Early Sexual Experiences",
+      "text_evidence": "The first act of intercourse activates in a woman other impulses of long standing as well as those already described, and these are in complete opposition to her womanly role and function.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4133",
+      "id": "FREUD-4133",
+      "title": "Masculine Protest and Neurosis",
+      "text_evidence": "During this phase, little girls often make no secret of their envy, nor of the hostility towards their favoured brothers which arises from it.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4134",
+      "id": "FREUD-4134",
+      "title": "Distinction Between Conscious and Unconscious",
+      "text_evidence": "Freud emphasizes the necessity of distinguishing between conscious and unconscious mental processes, particularly in cases of hysteria where individuals may exhibit symptoms like blindness despite having the capacity to see unconsciously. This distinction is crucial for understanding the dynamics of psychogenic disturbances.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4135",
+      "id": "FREUD-4135",
+      "title": "Dissociation in Hysteria",
+      "text_evidence": "Freud discusses how individuals predisposed to hysteria may experience a dissociation of mental processes, leading to a separation between conscious awareness and unconscious experiences. This dissociation results in the manifestation of symptoms that reflect the underlying psychical state rather than being caused by autosuggestion.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4136",
+      "id": "FREUD-4136",
+      "title": "Dynamic View of Mental Life",
+      "text_evidence": "Freud advocates for a dynamic understanding of mental life, where the interplay of various forces influences whether certain ideas remain conscious or unconscious. This perspective contrasts with static views that attribute dissociation to inherent incapacity, suggesting instead that it is a result of psychological conflict.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4137",
+      "id": "FREUD-4137",
+      "title": "Psycho-Analytic Explanation of Disturbances",
+      "text_evidence": "Freud posits that psycho-analysis provides a more coherent explanation for psychogenic disturbances, such as hysterical blindness, by relating dissociation and unconscious processes in a way that reflects the dynamic interactions of mental forces, rather than merely attributing them to suggestion or incapacity.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4138",
+      "id": "FREUD-4138",
+      "title": "Misinterpretation of Sexuality in Medicine",
+      "text_evidence": "The doctor's advice to the lady shows clearly in what sense he understands the expression ‘sexual life’ - in the popular sense, namely, in which by sexual needs nothing is meant but the need for coitus or analogous acts producing orgasm and emission of the sexual substances. This indicates a limited understanding of sexuality that fails to encompass the broader psychoanalytic perspective.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4139",
+      "id": "FREUD-4139",
+      "title": "Projection of Repressed Wishes",
+      "text_evidence": "A nerve-specialist easily becomes the object of many of his patients’ hostile feelings, whatever method of treatment he employs; he must also sometimes resign himself to accepting responsibility, by a kind of projection, for the buried repressed wishes of his nervous patients.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4140",
+      "id": "FREUD-4140",
+      "title": "Importance of Tact in Psychoanalysis",
+      "text_evidence": "If a physician thinks it necessary to discuss the question of sexuality with a woman he must do so with tact and consideration. Compliance with this demand, however, coincides with carrying out certain technical rules of psycho-analysis.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4141",
+      "id": "FREUD-4141",
+      "title": "Extended Concept of Sexuality",
+      "text_evidence": "In psycho-analysis, the concept of what is sexual comprises far more; it goes lower and also higher than its popular sense. This extension is justified genetically; we reckon as belonging to ‘sexual life’ all the activities of the tender feelings which have primitive sexual impulses as their source.",
+      "domain": "SEXUALITY_THEORY",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4142",
+      "id": "FREUD-4142",
+      "title": "Skepticism Towards Patient Claims",
+      "text_evidence": "Long years of experience have taught me not to accept straight away as true what patients, especially nervous patients, relate about their physician. This skepticism is crucial for maintaining objectivity in psychoanalytic practice.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 10"
+      ],
+      "work_id": "PART10",
+      "work_title": "Complete Works Part 10"
+    },
+    {
+      "position_id": "FREUD-4329",
+      "id": "FREUD-4329",
+      "title": "Psychoanalysis as Prophylactic Tool",
+      "text_evidence": "Freud suggests that psycho-analysis can have a prophylactic influence on children, allowing educators to intervene before signs of neurosis develop. This proactive approach could prevent the need for medical intervention later, highlighting the potential value of psycho-analysis in educational settings.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4330",
+      "id": "FREUD-4330",
+      "title": "Role of Educators in Psychoanalysis",
+      "text_evidence": "Freud argues that educators and pastoral workers are well-suited to practice psycho-analysis due to their close association with young people. He emphasizes that psychological instruction and a compassionate outlook are more critical than medical training for effective psycho-analytic practice.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4331",
+      "id": "FREUD-4331",
+      "title": "Collaboration Between Educators and Doctors",
+      "text_evidence": "Freud acknowledges that successful psycho-analytic interventions may require collaboration between educators and doctors, especially when mental abnormalities are present. This highlights the importance of interdisciplinary approaches in addressing psychological issues in children.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4332",
+      "id": "FREUD-4332",
+      "title": "Plasticity of Young Minds",
+      "text_evidence": "Freud notes that educators work with young minds that are still plastic and impressionable, which presents both an opportunity and a responsibility. They must avoid imposing their ideals and instead nurture the child's inherent dispositions and possibilities.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4333",
+      "id": "FREUD-4333",
+      "title": "Personality of the Analyst Matters",
+      "text_evidence": "Freud emphasizes that the effectiveness of psycho-analysis depends significantly on the personality of the analyst. This suggests that the analyst's character and approach are crucial for the safe and beneficial application of psycho-analytic techniques.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4334",
+      "id": "FREUD-4334",
+      "title": "Importance of Psychoanalysis in Medicine",
+      "text_evidence": "Freud emphasizes that psychoanalysis is crucial for understanding and treating psychical impotence and other neurotic ailments, which are often linked to disturbances in sexual function. He argues that specialists must integrate psychoanalytic techniques into their practice to effectively diagnose and treat these conditions.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4335",
+      "id": "FREUD-4335",
+      "title": "Interplay of Organic and Neurotic Illness",
+      "text_evidence": "Freud discusses the necessity for specialists to differentiate between organic and neurotic elements in illnesses, highlighting how these factors can mutually reinforce each other. This understanding is essential for effective treatment and diagnosis.",
+      "domain": "CLINICAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4336",
+      "id": "FREUD-4336",
+      "title": "Need for Specialized Knowledge in Treatment",
+      "text_evidence": "Freud advocates that medical specialists should possess both general medical knowledge and specialized understanding of neurotic disorders. This dual expertise is vital for accurately diagnosing and treating patients with symptoms that may arise from psychological disturbances.",
+      "domain": "TECHNIQUE",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4337",
+      "id": "FREUD-4337",
+      "title": "Recognition of Nervous Disorders' Significance",
+      "text_evidence": "Freud warns against the dismissal of nervous disorders as mere psychological issues, arguing that they deserve serious attention due to their frequency and practical importance in medicine. He calls for a shift in how these conditions are perceived and treated.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4338",
+      "id": "FREUD-4338",
+      "title": "Future of Psychoanalysis in Medical Practice",
+      "text_evidence": "Freud predicts that the integration of psychoanalysis into medical practice will become a standard expectation, asserting that no nervous disturbance can be fully understood or treated without psychoanalytic techniques. This reflects his belief in the transformative potential of psychoanalysis in healthcare.",
+      "domain": "METAPSYCHOLOGY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4339",
+      "id": "FREUD-4339",
+      "title": "Totemism and Exogamy Connection",
+      "text_evidence": "Freud highlights the strong bond between totemism and exogamy, noting that the prohibition against sexual relations among individuals of the same totem is a significant aspect of the totemic system. This connection is not immediately apparent from the attributes of the totem itself, suggesting a deeper, perhaps historical, relationship between these social structures.",
+      "domain": "CULTURAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4340",
+      "id": "FREUD-4340",
+      "title": "Historical Development of Totemism",
+      "text_evidence": "Freud emphasizes that even primitive races have a long history that influences their current social and religious practices. The state of totemism observed today may reflect various stages of decay, transition, or distortion from its original form, complicating our understanding of its significance.",
+      "domain": "DEVELOPMENTAL_THEORY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
+    },
+    {
+      "position_id": "FREUD-4341",
+      "id": "FREUD-4341",
+      "title": "Punishment for Violating Totemic Laws",
+      "text_evidence": "Freud points out that the violation of the prohibition against incest within totemic systems is met with severe communal punishment, indicating that such transgressions are viewed as threats to the entire clan. This collective response underscores the importance of these laws in maintaining social cohesion.",
+      "domain": "PSYCHOPATHOLOGY",
+      "source": [
+        "Complete Works Part 11"
+      ],
+      "work_id": "PART11",
+      "work_title": "Complete Works Part 11"
     }
   ]
 }
