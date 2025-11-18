@@ -1,0 +1,92 @@
+# FreudGPT - Multi-Philosopher AI Assistant
+
+## Overview
+FreudGPT is an intelligent conversational AI application designed to provide in-depth, streaming responses based on the works of various philosophers. It leverages semantic search over comprehensive philosophical databases to accurately reflect the original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default) and Kuczynski, with a total of 4,650 philosophical positions (1,523 Freud + 858 Kuczynski + 2,269 other philosophical positions). The overarching vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry to expand intellectual discourse and understanding.
+
+## User Preferences
+- **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
+- **Response Style**: AI responses must faithfully represent Kuczynski's actual arguments, examples, and rigorous writing style, not glib paraphrases. This means quoting or very closely paraphrasing the actual text from positions, using his exact examples and rhetorical questions, preserving his step-by-step argumentative structure, and matching his rigorous, technical, methodical, and detailed tone. The AI should not summarize, simplify, or "make accessible" his work.
+- **Argumentation**: The AI prompt is configured to not argue against user input when they present a position; it defaults to SUPPORT/EXPAND mode, but acknowledges mismatches if retrieved positions conflict.
+- **Relevance Assessment**: The AI should check if retrieved positions actually address the user's question before using them, providing an intelligent fallback response consistent with Kuczynski's broader philosophy if no relevant positions exist.
+
+## System Architecture
+
+### Core Functionality
+- **Multi-Database Support**: Users can toggle between Freud (default) and Kuczynski databases.
+- **Enhanced Mode Toggle**: Users can switch between Basic Mode (faithful summarization) and Enhanced Mode (creative theoretical extension). Enhanced Mode allows the AI to make new inferences and elaborate arguments the thinker could have made while staying strictly within their conceptual framework.
+- **Semantic Search**: Philosophical positions are indexed using embeddings for efficient retrieval.
+- **Streaming AI Responses**: Delivers token-by-token responses from multiple AI providers.
+- **Multi-AI Provider Support**: Integrates several AI models.
+- **Conversation Memory**: Tracks Q&A exchanges per session with self-contradiction detection.
+- **Content Ingestion**: Supports file uploads (PDF, Word, TXT) with automatic text extraction.
+- **User Interface**: Features a clean, responsive conversation UI with auto-expanding input and distinct user/AI dialogue.
+- **Source Citations**: Automatically includes relevant position IDs with each AI response.
+- **Conversation Management**: Enables downloading individual exchanges in Markdown or TXT format.
+- **Optional Login**: Implements a username-only login for future chat history features.
+
+### Technical Implementation
+- **Backend**: Flask handles application logic, SSE streaming, and integration with the semantic search module, managing multiple database instances and conversation memory.
+- **Frontend**: A minimal HTML interface (`index.html`) styled with professional gradients (`style.css`) uses vanilla JavaScript (`app.js`) for dynamic interactions and SSE streaming.
+- **Data Management**: Philosophical positions for Kuczynski and Freud are stored in JSON files (FREUD_DATABASE.json with 3,792 total positions including 1,523 Freud positions through Part 15). Pre-computed embeddings are cached (freud_embeddings.pkl with 3,792×1536 embeddings). Full source texts for Freud's works are available in `texts/freud/`.
+- **Conversation Storage**: Session-scoped in-memory storage with auto-pruning.
+- **ML/NLP**: Utilizes OpenAI's `text-embedding-3-small` API for embeddings and scikit-learn for cosine similarity.
+- **File Processing**: Employs `PyPDF2` and `python-docx` for text extraction.
+
+### Key Design Decisions
+- **Faithful Representation**: AI responses strictly adhere to the original text, examples, and argumentative style of the selected thinker, avoiding summarization or simplification.
+- **Dual Response Modes**:
+  - **Basic Mode (Default)**: Faithfully quotes or closely paraphrases retrieved positions, preserving exact examples, rhetorical questions, and argumentative structure.
+  - **Enhanced Mode**: Provides creative theoretical extensions that the thinker could have written. Answers questions directly first, uses retrieved passages as foundation, extends creatively while maintaining theoretical coherence, and never contradicts the thinker's established system. Database-specific cognitive architectures guide responses (e.g., Freud's dream-work mechanisms, Kuczynski's aspectual representation).
+- **Token-by-Token Streaming**: Provides immediate, real-time display of AI responses.
+- **Simplified Data Model**: Focuses on philosophical positions as the primary data points.
+- **CPU-Only PyTorch**: Optimized for Replit environment constraints.
+
+## External Dependencies
+- **AI Providers**:
+    - Anthropic Claude
+    - OpenAI
+    - DeepSeek
+    - Perplexity
+- **Python Libraries**:
+    - Flask
+    - sentence-transformers
+    - scikit-learn
+    - PyTorch (CPU)
+    - PyPDF2
+    - python-docx
+    - Gunicorn
+    - gevent
+## Database Status
+
+### Freud Database Progress
+- **Part 1-10**: 1,029 positions (FREUD-0001 to FREUD-1029) covering 1893-1919
+- **Part 11**: 60 positions (FREUD-1030 to FREUD-1089) added November 2025
+  - Source: Introductory Lectures on Psycho-Analysis, Lectures XXV-XXVIII (1916-1917)
+  - Coverage: Anxiety theory, libido theory, narcissism, transference, analytic therapy
+  - Final lectures synthesizing core psychoanalytic theory through 1917
+- **Part 12**: 351 positions (FREUD-1090 to FREUD-1440) added November 2025
+  - Source: Introductory Lectures on Psycho-Analysis, Lectures XVI-XXIV (1916-1917)
+  - Coverage: Dream methodology, psychoanalysis vs psychiatry, resistance/repression, infantile sexuality, Oedipus complex, libido development (oral/anal/genital phases), regression/fixation, symptom formation, childhood neuroses, primal phantasies, introversion, artistic sublimation
+  - Systematic theoretical foundation for neurosis etiology and psychoanalytic technique
+- **Part 15**: 83 positions (FREUD-1441 to FREUD-1523) added November 2025
+  - Source: Post-WWI theoretical works (1919-1921)
+  - Works: The 'Uncanny' (11), Beyond The Pleasure Principle (30), Group Psychology And The Analysis Of The Ego (42)
+  - Coverage: Ego-splitting, doubling, repetition compulsion, death drive (Thanatos), Eros-Thanatos dualism, identification, group dynamics, ego-ideal, libidinal bonds
+  - Major theoretical turn introducing death drive and structural model foundations
+- **Total Freud Positions**: 1,523 (FREUD-0001 to FREUD-1523)
+- **Embeddings**: Perfect 1:1 alignment, 3,792 total positions with embeddings
+
+### Part 11 Domains
+Anxiety, libido theory, narcissism, ego-ideal, transference, transference-neurosis, analytic therapy, therapeutic principles, suggestion critique, gain from illness, treatment limitations, narcissistic neuroses, object-choice, sleep, physical illness, love, megalomania, primary/secondary narcissism, realistic/neurotic/moral anxiety, phobia, hysteria, obsessional neurosis, traumatic neurosis, instinct dualism, economic model, therapeutic mechanisms.
+
+### Part 12 Domains
+Dreams, dream interpretation, methodology, symptoms, neurosis, resistance, repression, unconscious, sexuality, libido, infantile sexuality, Oedipus complex, development, regression, fixation, ego, symptom formation, childhood neuroses, perversion, complementary series, phylogenetic inheritance, pleasure principle, reality principle, primal phantasies, introversion, artistic sublimation, castration complex, oral phase, anal phase, genital primacy.
+
+### Part 15 Domains
+Uncanny, doubling, ego-splitting, repetition compulsion, death drive, Thanatos, Eros, instinct dualism, identification, group psychology, ego-ideal, libidinal bonds, narcissism, transference, anxiety, regression, repression, unconscious, sexuality, psychoanalytic theory.
+
+### Recent Changes
+- **November 18, 2025**: Enhanced Mode feature added - users can toggle between Basic Mode (faithful summarization) and Enhanced Mode (creative theoretical extension)
+- **November 18, 2025**: Part 11 integration complete - added final Introductory Lectures (XXV-XXVIII) covering anxiety, narcissism, transference, and analytic therapy
+- **November 18, 2025**: Part 12 integration complete - added 351 positions from Introductory Lectures XVI-XXIV covering neurosis theory, infantile sexuality, Oedipus complex, libido development, and symptom formation
+- **November 18, 2025**: Part 15 integration complete - added 83 positions from post-WWI works (1919-1921) covering the uncanny, death drive, repetition compulsion, and group psychology
