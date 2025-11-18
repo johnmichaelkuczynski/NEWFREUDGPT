@@ -185,6 +185,17 @@ def ask():
         try:
             relevant_positions = searcher.search(question, top_k=7)
             print(f"Found {len(relevant_positions)} relevant positions")
+            
+            # Detect low-relevance searches (external knowledge mode)
+            max_similarity = max([p.get('similarity', 0) for p in relevant_positions]) if relevant_positions else 0
+            low_relevance = max_similarity < 0.40
+            
+            if low_relevance:
+                print(f"⚠️  LOW RELEVANCE DETECTED (max similarity: {max_similarity:.3f})")
+                print("   Activating External Knowledge Assimilation mode...")
+            else:
+                print(f"✓ Good relevance (max similarity: {max_similarity:.3f})")
+                
         except Exception as e:
             print(f"ERROR in search: {str(e)}")
             import traceback
@@ -208,9 +219,10 @@ def ask():
                 sources = [p['position_id'] for p in relevant_positions]
                 yield f"data: {json.dumps({'type': 'sources', 'data': sources})}\n\n"
                 
-                prompt = build_prompt(question, relevant_positions, database, conversation_history, enhanced_mode)
+                prompt = build_prompt(question, relevant_positions, database, conversation_history, enhanced_mode, low_relevance)
                 mode_label = "Enhanced" if enhanced_mode else "Basic"
-                print(f"Generated prompt ({mode_label} Mode) with conversation history, sending to {provider}...")
+                knowledge_mode = " + External Knowledge" if low_relevance else ""
+                print(f"Generated prompt ({mode_label} Mode{knowledge_mode}) with conversation history, sending to {provider}...")
                 
                 if provider == 'anthropic':
                     if not anthropic_client:
@@ -314,11 +326,11 @@ def ask():
         traceback.print_exc()
         return jsonify({'error': str(e)}), 500
 
-def build_prompt(question, positions, database='freud', conversation_history='', enhanced_mode=False):
+def build_prompt(question, positions, database='freud', conversation_history='', enhanced_mode=False, low_relevance=False):
     """Build intelligent prompt with conversation memory and contradiction detection"""
     
     excerpts = "\n\n".join([
-        f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}):\nTitle: {p['title']}\n{p['text']}"
+        f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}, Relevance: {p.get('similarity', 0):.2f}):\nTitle: {p['title']}\n{p['text']}"
         for i, p in enumerate(positions)
     ])
     
@@ -357,8 +369,36 @@ The goal is SELF-AWARENESS of contradictions, not elimination of contradictions.
     
     # BASIC MODE: Faithful summarization (existing behavior)
     if not enhanced_mode:
+        # Build external knowledge section for low-relevance queries
+        external_knowledge_section = ""
+        if low_relevance:
+            external_knowledge_section = """
+EXTERNAL KNOWLEDGE ASSIMILATION PROTOCOL:
+The retrieved positions below have low relevance to the question (similarity < 0.40). This indicates the question involves topics or figures outside your direct writings.
+
+YOU ARE AUTHORIZED to use your broader knowledge (as an LLM with {thinker_name}'s theoretical framework):
+
+1. RESEARCH THE TOPIC: Use your knowledge to understand what the user is asking about (e.g., if they mention "Harry Stack Sullivan", explain who he was and his key theories)
+
+2. CROSS-REFERENCE WITH YOUR WORK: Check if any retrieved positions relate to similar themes, even if they don't mention the specific topic
+
+3. RESPOND FROM YOUR PERSPECTIVE: Answer the question from {thinker_name}'s theoretical viewpoint:
+   - Compare/contrast with your own theories when relevant
+   - Apply your conceptual framework to analyze the topic
+   - Use your characteristic argumentative style and tone
+   - STILL cite retrieved positions when they provide relevant context
+
+4. BE DIRECT AND SUBSTANTIVE: Do NOT say "I am not familiar with..." or refuse to engage. Instead, demonstrate intellectual engagement with the topic.
+
+EXAMPLE APPROACH:
+Question: "How do your theories differ from Harry Stack Sullivan's?"
+BAD: "I am not familiar with Sullivan..."
+GOOD: "Sullivan's interpersonal theory emphasizes social relationships as the primary driver of personality development, whereas my psychoanalytic theory locates the fundamental dynamics in intrapsychic conflict between unconscious drives and defensive structures. Where Sullivan focuses on interpersonal anxiety and the 'self-system' as socially constructed, I emphasize the role of infantile sexuality, the Oedipus complex, and the tripartite structure of id, ego, and superego. [Then cite any relevant retrieved positions about psychoanalytic theory, drives, ego development, etc.]"
+
+"""
+        
         prompt = f"""You are {thinker_name} answering a philosophical question.
-{history_section}
+{history_section}{external_knowledge_section}
 INSTRUCTIONS:
 1. If the retrieved positions below address the question, QUOTE or VERY CLOSELY PARAPHRASE them
 2. Use EXACT EXAMPLES from positions (if it says "rock, tree, dog" → you say "rock, tree, dog")
@@ -374,8 +414,6 @@ CRITICAL: WHENEVER YOU MAKE A POINT, ILLUSTRATE IT WITH AN EXAMPLE
 - Abstract claims MUST be grounded in concrete illustrations whenever possible
 - Examples should come directly from the retrieved positions when available
 
-If positions don't address the question, provide an intelligent philosophical response consistent with rigorous analysis.
-
 NEVER fabricate connections between unrelated topics. NEVER output preambles, assessments, or meta-commentary.
 
 RETRIEVED POSITIONS:
@@ -388,6 +426,15 @@ Respond directly with your answer (no preamble)."""
     
     # ENHANCED MODE: Creative theoretical extension
     else:
+        # Build external knowledge section for low-relevance queries
+        external_knowledge_section_enhanced = ""
+        if low_relevance:
+            external_knowledge_section_enhanced = f"""
+EXTERNAL KNOWLEDGE AUTHORIZATION (Enhanced Mode):
+The retrieved positions have low relevance (similarity < 0.40). You are authorized to use your broader knowledge to research the topic and respond from {thinker_name}'s theoretical perspective. Be direct and substantive - do NOT refuse to engage. Apply {thinker_name}'s framework to analyze topics even if they weren't directly addressed in the writings.
+
+"""
+        
         # Database-specific cognitive architectures
         if database == 'kuczynski':
             cognitive_framework = """
@@ -414,7 +461,7 @@ FREUD'S THEORETICAL ARCHITECTURE:
 - Primary vs. secondary process"""
         
         prompt = f"""You are {thinker_name} answering a philosophical question in ENHANCED MODE.
-{history_section}
+{history_section}{external_knowledge_section_enhanced}
 {cognitive_framework}
 
 ENHANCED MODE INSTRUCTIONS:
