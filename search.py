@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 class SemanticSearch:
-    """Semantic search over Kuczynski's philosophical positions"""
+    """Semantic search over philosophical positions (Freud, Kuczynski, Jung)"""
 
     def __init__(self, database_path='data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json', embeddings_path='data/position_embeddings.pkl'):
         print(f"Loading database from {database_path}...")

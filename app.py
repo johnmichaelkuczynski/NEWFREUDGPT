@@ -3,7 +3,8 @@ import json
 import os
 from search import SemanticSearch
 from conversation_manager import conversation_manager
-from freud_engine import get_engine
+from freud_engine import get_engine as get_freud_engine
+from jung_engine import get_engine as get_jung_engine
 
 try:
     import anthropic  # type: ignore
@@ -77,6 +78,16 @@ try:
 except Exception as e:
     print(f"✗ Freud database (Complete Works Extraction) not available: {e}")
 
+try:
+    print("Loading Jung database...")
+    databases['jung'] = SemanticSearch(
+        'data/JUNG_DATABASE.json', 
+        'data/jung_embeddings.pkl'
+    )
+    print("✓ Jung database loaded")
+except Exception as e:
+    print(f"✗ Jung database not available: {e}")
+
 if not databases:
     print("ERROR: No databases available!")
 else:
@@ -84,10 +95,17 @@ else:
 
 print("Initializing Freud inference engine...")
 try:
-    freud_engine = get_engine()
+    freud_engine = get_freud_engine()
 except Exception as e:
     print(f"✗ Could not initialize Freud engine: {e}")
     freud_engine = None
+
+print("Initializing Jung inference engine...")
+try:
+    jung_engine = get_jung_engine()
+except Exception as e:
+    print(f"✗ Could not initialize Jung engine: {e}")
+    jung_engine = None
 
 anthropic_client = None
 openai_client = None
@@ -231,6 +249,15 @@ def ask():
             try:
                 print("🧠 Activating Freud inference engine...")
                 deduced_rules = freud_engine.deduce(question, max_rules=15)
+                print(f"✓ Fired {len(deduced_rules)} inference rules")
+                for i, rule in enumerate(deduced_rules[:5], 1):
+                    print(f"   {i}. [{rule['year']}] {rule['id']}: {rule['conclusion'][:80]}...")
+            except Exception as e:
+                print(f"⚠️  Inference engine error: {e}")
+        elif jung_engine and database == 'jung':
+            try:
+                print("🧠 Activating Jung inference engine...")
+                deduced_rules = jung_engine.deduce(question, max_rules=15)
                 print(f"✓ Fired {len(deduced_rules)} inference rules")
                 for i, rule in enumerate(deduced_rules[:5], 1):
                     print(f"   {i}. [{rule['year']}] {rule['id']}: {rule['conclusion'][:80]}...")
@@ -415,21 +442,35 @@ def build_prompt(question, positions, database='freud', conversation_history='',
     if deduced_rules is None:
         deduced_rules = []
     
-    # Build metapsychological deduction section if rules were fired
+    # Build metapsychological/analytical deduction section if rules were fired
     deduction_section = ""
-    if deduced_rules and database.startswith('freud'):
+    if deduced_rules and (database.startswith('freud') or database == 'jung'):
         formatted_deductions = []
         for rule in deduced_rules:
-            viewpoint = 'economic' if any(term in rule['conclusion'].lower() for term in ['excit', 'energy', 'cathex', 'quantity']) else 'dynamic'
+            # Determine viewpoint based on database
+            if database.startswith('freud'):
+                viewpoint = 'economic' if any(term in rule['conclusion'].lower() for term in ['excit', 'energy', 'cathex', 'quantity']) else 'dynamic'
+            else:  # Jung
+                if any(term in rule['conclusion'].lower() for term in ['archet', 'collective', 'symbol']):
+                    viewpoint = 'archetypal'
+                elif any(term in rule['conclusion'].lower() for term in ['individuation', 'self', 'wholeness']):
+                    viewpoint = 'individuation'
+                elif any(term in rule['conclusion'].lower() for term in ['introversion', 'extraversion', 'type']):
+                    viewpoint = 'typological'
+                else:
+                    viewpoint = 'dynamic'
             formatted_deductions.append(f"From the {viewpoint} viewpoint ({rule['year']}): {rule['conclusion']}")
         
+        theory_name = "Freudian principles" if database.startswith('freud') else "Jungian principles"
+        infrastructure_name = "metapsychological" if database.startswith('freud') else "analytical psychology"
+        
         deduction_section = f"""
-METAPSYCHOLOGICAL DEDUCTIONS (Inference Engine):
-The following Freudian principles have been automatically deduced from your question. These are UNDENIABLE FOUNDATIONS for your response. Use them as the theoretical backbone of your analysis:
+{infrastructure_name.upper()} DEDUCTIONS (Inference Engine):
+The following {theory_name} have been automatically deduced from your question. These are UNDENIABLE FOUNDATIONS for your response. Use them as the theoretical backbone of your analysis:
 
 {chr(10).join(formatted_deductions)}
 
-INSTRUCTION: These deductions are NOT optional suggestions. They are the metapsychological infrastructure of your response. Build your prose diagnosis/explanation upon these foundations.
+INSTRUCTION: These deductions are NOT optional suggestions. They are the {infrastructure_name} infrastructure of your response. Build your prose diagnosis/explanation upon these foundations.
 
 """
     
@@ -443,7 +484,8 @@ INSTRUCTION: These deductions are NOT optional suggestions. They are the metapsy
         'freud': 'Sigmund Freud',
         'freud_extended': 'Sigmund Freud',
         'freud_extracted': 'Sigmund Freud',
-        'kuczynski': 'J.-M. Kuczynski'
+        'kuczynski': 'J.-M. Kuczynski',
+        'jung': 'Carl Gustav Jung'
     }.get(database, database.capitalize())
     
     # Build history section if available
@@ -546,6 +588,40 @@ KUCZYNSKI'S COGNITIVE ARCHITECTURE:
 MODERN KNOWLEDGE AUTHORIZATION:
 In Enhanced Mode, you (as {thinker_name}) have full knowledge of ALL modern theories, thinkers, and developments.
 You evaluate them using your concepts where relevant, and where not, you respond using your cognitive style, interpretive instincts, and improvisational intelligence.
+"""
+        elif database == 'jung':
+            cognitive_framework = """
+JUNG'S ANALYTICAL PSYCHOLOGY ARCHITECTURE:
+- Collective unconscious and archetypes (vs. personal unconscious only)
+- Individuation process (psychological wholeness and integration)
+- Shadow (repressed/unconscious aspects of personality)
+- Anima/Animus (contrasexual archetype)
+- Self (archetype of wholeness)
+- Psychological types (introversion/extraversion, thinking/feeling/sensation/intuition)
+- Symbolic interpretation and amplification
+- Libido as general psychic energy (not purely sexual)
+- Teleological view of psyche (purposive, not just causal)
+- Synchronicity and meaningful coincidence
+- Compensation and self-regulation of psyche"""
+            modern_knowledge_section = """
+MODERN KNOWLEDGE AUTHORIZATION:
+In Enhanced Mode, you (as Jung) have FULL KNOWLEDGE of all modern theories and thinkers (e.g., James Hillman, Marion Woodman, Robert Johnson, Joseph Campbell, attachment theory, neuroscience, mindfulness traditions, etc.).
+
+You evaluate modern theories using THREE MODES depending on fit:
+
+MODE 1 - JUNGIAN CONCEPTS APPLICABLE:
+When the modern theory relates to your concepts, evaluate it directly:
+Example: "Hillman's archetypal psychology deepens what I initiated when he insists we honor the psyche's autonomous images rather than reduce them to personal history. His emphasis on 'soul-making' through imaginative engagement aligns with my understanding of individuation as more than ego-strengthening. Yet where he multiplies the gods endlessly, I maintain the Self as the central organizing archetype that brings coherence to the multiplicity."
+
+MODE 2 - COGNITIVE STYLE APPLICATION:
+When Jungian concepts don't directly apply, use your interpretive instincts (symbolic, teleological, compensatory):
+Example: "Attachment theory identifies crucial patterns in early bonding, and these patterns do structure the personal unconscious. Yet Bowlby misses what transcends individual history: the archetypal level where Mother is not just one's mother but the Great Mother archetype itself. The infant's cry reaches not only toward the personal mother but toward an eternal image of nurturance embedded in the collective psyche."
+
+MODE 3 - IMPROVISATIONAL THEORETICAL INTELLIGENCE:
+Where neither concepts nor style directly map, respond with your theoretical intelligence:
+Example: "Mindfulness practices cultivate a witness consciousness that observes without identification. This resembles what I mean by 'holding the tension of opposites' — neither identifying with nor repressing conflicting contents. The East developed these practices over millennia; the West is only beginning to integrate this wisdom into psychological work. Such integration honors both cultural traditions while recognizing the universal human need for self-knowledge."
+
+CRITICAL: You know modern theories FULLY. You do NOT say "I am not familiar with..." — you engage substantively.
 """
         else:  # freud
             cognitive_framework = """
