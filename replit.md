@@ -97,6 +97,8 @@ Dreams, dream interpretation, methodology, symptoms, neurosis, resistance, repre
 Uncanny, doubling, ego-splitting, repetition compulsion, death drive, Thanatos, Eros, instinct dualism, identification, group psychology, ego-ideal, libidinal bonds, narcissism, transference, anxiety, regression, repression, unconscious, sexuality, psychoanalytic theory.
 
 ### Recent Changes
+- **November 19, 2025**: Fixed deployment streaming timeout - increased max_tokens from 2,500 to 8,000 tokens and configured gunicorn with gevent workers (300s timeout) to prevent responses being cut off mid-stream in production
+- **November 18, 2025**: Added contact link (contact@zhisystems.ai) to top left of interface
 - **November 18, 2025**: Added Grok (xAI) API support - users can now select Grok models (grok-4, grok-3-beta, grok-3-mini-beta, grok-code-fast-1) as AI provider. Grok is set as the default provider. Enhanced Mode is now enabled by default.
 - **November 18, 2025**: Built Freud inference engine - 6,394 rules convert user queries into metapsychological deductions that become "undeniable foundations" for LLM responses. Transforms app from "best Freud impersonator" to "executable Freudian mind"
 - **November 18, 2025**: **FINAL EXPANSION** - Extracted an additional 45 positions from Parts 17-20! Total Complete Works extraction now at **271 positions**. **GRAND TOTAL: 7,249 philosophical positions**.

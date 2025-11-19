@@ -271,7 +271,7 @@ def ask():
                     print(f"Using Anthropic model: {model_name}")
                     with anthropic_client.messages.stream(
                         model=model_name,
-                        max_tokens=2500,
+                        max_tokens=8000,
                         messages=[{"role": "user", "content": prompt}]
                     ) as stream:
                         token_count = 0
@@ -293,7 +293,7 @@ def ask():
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
                         stream=True,
-                        max_tokens=2500
+                        max_tokens=8000
                     )
                     for chunk in stream:
                         if chunk.choices[0].delta.content:
@@ -310,7 +310,7 @@ def ask():
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
                         stream=True,
-                        max_tokens=2500
+                        max_tokens=8000
                     )
                     for chunk in stream:
                         if chunk.choices[0].delta.content:
@@ -327,7 +327,7 @@ def ask():
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
                         stream=True,
-                        max_tokens=2500
+                        max_tokens=8000
                     )
                     for chunk in stream:
                         if chunk.choices[0].delta.content:
@@ -344,7 +344,7 @@ def ask():
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
                         stream=True,
-                        max_tokens=2500
+                        max_tokens=8000
                     )
                     for chunk in stream:
                         if chunk.choices[0].delta.content:

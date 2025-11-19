@@ -36,12 +36,12 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
-localPort = 34261
-externalPort = 3002
-
-[[ports]]
 localPort = 39363
 externalPort = 3000
+
+[[ports]]
+localPort = 39605
+externalPort = 3002
 
 [[ports]]
 localPort = 45369
@@ -49,4 +49,4 @@ externalPort = 3001
 
 [deployment]
 deploymentTarget = "vm"
-run = ["python", "app.py"]
+run = ["sh", "-c", "gunicorn --worker-class gevent --workers 1 --bind 0.0.0.0:5000 --timeout 300 --keep-alive 30 --reuse-port app:app"]
