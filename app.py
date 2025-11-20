@@ -272,8 +272,8 @@ def ask():
             session['conversation_id'] = conversation_manager.get_conversation_id()
         conversation_id = session['conversation_id']
         
-        # Get conversation history
-        conversation_history = conversation_manager.format_history_for_prompt(conversation_id, max_recent=5)
+        # Get conversation history (filtered to current database only to prevent cross-contamination)
+        conversation_history = conversation_manager.format_history_for_prompt(conversation_id, max_recent=5, current_database=database)
         
         # Track the full answer for storage after streaming
         full_answer = []

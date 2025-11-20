@@ -61,18 +61,26 @@ class ConversationManager:
         """
         return self.conversations.get(conversation_id, [])
     
-    def format_history_for_prompt(self, conversation_id: str, max_recent: int = 10) -> str:
+    def format_history_for_prompt(self, conversation_id: str, max_recent: int = 10, current_database: Optional[str] = None) -> str:
         """
         Format conversation history for inclusion in AI prompt.
         
         Args:
             conversation_id: Unique conversation identifier
             max_recent: Maximum number of recent exchanges to include
+            current_database: If provided, only include exchanges from this database
             
         Returns:
             Formatted string of previous Q&A exchanges
         """
         history = self.get_history(conversation_id)
+        
+        if not history:
+            return ""
+        
+        # Filter by current database if specified (prevents cross-contamination)
+        if current_database:
+            history = [ex for ex in history if ex.get('database') == current_database]
         
         if not history:
             return ""
