@@ -41,7 +41,7 @@ databases = {}
 try:
     print("Loading Kuczynski database...")
     databases['kuczynski'] = SemanticSearch(
-        'data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json', 
+        'data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v32_MERGED.json', 
         'data/position_embeddings.pkl'
     )
     print("✓ Kuczynski database loaded")
