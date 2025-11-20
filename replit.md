@@ -1,7 +1,20 @@
 # FreudGPT - Multi-Philosopher AI Assistant
 
 ## Overview
-FreudGPT is an intelligent conversational AI application providing in-depth, streaming responses based on the works of various philosophers. It uses semantic search over comprehensive philosophical databases to accurately reflect original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default), Kuczynski, and Jung, with a total of 7,446 philosophical positions. The vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry. The app implements "executable minds" by transforming from "best impersonator" to "executable philosophical reasoning" through forward-chaining inference engines that deduce theoretical principles from phenomena before LLM prose generation.
+FreudGPT is an intelligent conversational AI application providing in-depth, streaming responses based on the works of various philosophers. It uses semantic search over comprehensive philosophical databases to accurately reflect original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default), Kuczynski, and Jung, with a total of ~7,800+ philosophical positions across 3 philosophers. The vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry. The app implements "executable minds" by transforming from "best impersonator" to "executable philosophical reasoning" through forward-chaining inference engines that deduce theoretical principles from phenomena before LLM prose generation.
+
+### Recent Updates (Nov 20, 2025)
+**Massive Kuczynski Database Expansion**: Added 8 new works (WORK-039 to WORK-046) including:
+- Uniquely Individuating Descriptions (philosophy of language)
+- How not to be a Fodorean about concepts (philosophy of mind)
+- The Impossibility of Economics as Predictive Science (philosophy of science/economics)
+- Early Published Papers 1997-2003 (published articles collection)
+- College Papers Plus Complete Works (63 multidisciplinary papers)
+- Conceptual Atomism and Computational Theory of Mind
+- ZHI Systems Journal (McTaggart on time, Kant network reinterpretation)
+- College Papers Plus July-Aug 2019 (Turing Test, Searle, music, politics)
+
+This expansion added 56 new positions to the Kuczynski database, bringing it from 908 to 1,282 raw positions (post-filtering count determined on load).
 
 ## User Preferences
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
