@@ -41,10 +41,10 @@ databases = {}
 try:
     print("Loading Kuczynski database...")
     databases['kuczynski'] = SemanticSearch(
-        'data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v32_MERGED.json', 
-        'data/position_embeddings.pkl'
+        'data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v36_FINAL.json', 
+        'data/kuczynski_v36_embeddings.pkl'
     )
-    print("✓ Kuczynski database loaded")
+    print("✓ Kuczynski database loaded (v36: 3,305 positions)")
 except Exception as e:
     print(f"✗ Failed to load Kuczynski database: {e}")
 

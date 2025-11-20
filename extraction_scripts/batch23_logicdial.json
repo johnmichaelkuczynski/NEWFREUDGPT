@@ -1,0 +1,93 @@
+[
+  {
+    "id": "LOGDIAL-001",
+    "text": "Dr. K: A formal truth is a statement that holds entirely in virtue of its own structural properties. An example is it is either raining or it isn’t. A less trivial exaple is there are continuous functions that cannot be differentiated at any point.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-002",
+    "text": "Dr. K: Yes. The central concept of all of mathematics is that of a function. A function is a rule that assigns at least one object to at least one object and never assigns more than object to any given object.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-003",
+    "text": "Dr. K: Yes. That function is a rule that assigns numbers to numbers, but not all functions do so. Some functions assign statements to statements. Mathematical logic studies statement-functions. Most other branches of mathematics study numerical functions.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-004",
+    "text": "Dr. K: The short answer is “yes,” since there are extremely important functions that assign classess to classes, as well as functions that assign properties to properties. And there are other important functions that are neither numerical functions nor statement functions.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-005",
+    "text": "Dr. K: You will by the end of this podcast-series. Let’s start by discussing the most important statement-function of all, the negation function. This is the function that assigns the negation of any given statement to that statement.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-006",
+    "text": "Dr. K: The negation of a statement is incompatible with that statement. Smith is in Alaska is incompatible with Smith is not in Alaska. In other words, they cannot simultaneously be true. But someone is tall and someone is not tall can simultaneously be true. In fact, they are both true.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-007",
+    "text": "MAX: So basically, if you are in doubt as to how to negate a given statement, just put the words “it is not the case that” in front of it, and then make the needed changes to that sentence.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-008",
+    "text": "MAX: So to conjoin two statements is to put an ‘and’ between them and to disjoin them is to put an ‘or’ between them. So if I start out with the statements “grass is green” and “snow is white”, and I disjoin them, I end up with “snow is white or grass is green”, and if I conjoin them, and I end up with “grass is green and snow is white.”",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-009",
+    "text": "Dr. K: Negation operates on single statements. Given snow is white, it outputs snow is not white. Conjunction and disjunction take pairs of statements as inputs. They assign statements to statement-pairs.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-010",
+    "text": "Dr. K: No, there are infinitely many statement-functions. All connective expressions denote functions. The word “because” denotes an operation that assigns the statement “Smith is happy because Smith is wealthy” to the ordered pair whose first member is the statement Smith is happy and whose second member is Smith is wealthy.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-011",
+    "text": "MAX: Because even if P and Q are both true, “P because Q” isn’t necessarily true. Even if both Jim and Mary are in Alaska, “Jim is in Alaska because in Mary is in Alaska” is not necessarily true, and neither is “Mary is in Alaska, because Jim is in Alaska.”",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-012",
+    "text": "MAX: Because given only that P is true, it doesn’t follow that “Jim knows that Mary is in Alaska” is true. Given only that Mary is in Alaska, it does not follow that “Jim knows that Mary is in Alaska” is true.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  },
+  {
+    "id": "LOGDIAL-013",
+    "text": "Dr. K: Let’s say you start with the statement “Jim is in Alaska.” If you negate it, you get “Jim is not in Alaska.” If you negate that, you get “Jim is not not in Alaska”, and so on. No matter how many times you repeat this procedure, you never get to a statement that you can’t negate.",
+    "source": "Dialogue about Logic",
+    "topic": "Logic/Philosophy of Mathematics",
+    "keywords": []
+  }
+]

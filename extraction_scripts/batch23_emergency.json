@@ -1,0 +1,156 @@
+[
+  {
+    "id": "EMERG-001",
+    "text": "This paper argues that mainstream economics, particularly in its contemporary mathematized form, is fundamentally unsuited to its purported aim of prediction and explanation. Three structural features of economic systems—reflexivity, constant emergence, and path-dependency—undermine the discipline's core equilibrium-based methodology. Economics systematically misidentifies open, evolutionary systems as closed, structure-static systems. This is not a correctable error but a category mistake that renders the discipline's predictive pretensions incoherent.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-002",
+    "text": "These assumptions collectively constitute what we might call the **equilibrium worldview**. This worldview treats economies as closed systems—systems whose behavior is determined by internal dynamics and stable laws, temporarily disrupted by external shocks but fundamentally tending toward equilibrium states.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-003",
+    "text": "The category error is this: **Economies are open systems**. They cannot be usefully modeled as closed systems that occasionally receive exogenous perturbations. The distinction between endogenous and exogenous factors in real economies is not merely difficult to establish—it is conceptually incoherent given the nature of economic systems.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-004",
+    "text": "Consider: Any economic prediction, once known to market participants, changes the conditions under which it was made. If a model predicts that asset X will appreciate, and this prediction becomes known, agents will act on it, altering the very conditions the model assumed. The prediction undermines itself.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-005",
+    "text": "Physics can accommodate emergence at phase transitions or in complex systems, but these are special cases. The general domain of physics consists of law-governed, predictable phenomena. If physics constantly confronted emergence at every scale and timeframe, it would be impossible as a predictive science.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-006",
+    "text": "**Economies produce constant emergence.** New technologies, institutions, social practices, market forms, financial instruments, business models—all represent genuine novelty that could not have been predicted from prior economic states. The economy is not occasionally surprising; it is structurally innovative.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-007",
+    "text": "**The emergence thesis**: A discipline cannot be predictive when its domain constantly produces phenomena whose existence could not have been anticipated from the discipline's existing theoretical resources.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-008",
+    "text": "Economies are **path-dependent**: their current state is a function not just of present conditions but of the entire historical trajectory by which they arrived there. Identical present conditions reached via different paths will produce different futures.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-009",
+    "text": "The discipline assumes economies have stable structures that can be described by time-invariant laws (like organismic biology). But real economies are in constant evolutionary flux, generating genuine novelty (like evolutionary biology).",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-010",
+    "text": "You cannot predict evolution because there is no fixed reference frame. The \"rules\" themselves evolve. What counts as a market, a firm, money, capital, labor—all these categories shift over time. Economics attempts to write laws for a domain where the basic ontology is fluid.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-011",
+    "text": "Consider the example: \"In Holland, they don't have my apps. I go to Holland and convince them to buy my apps. Exogenous stimulus, right?\"",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-012",
+    "text": "Is the existence of new technology endogenous or exogenous to \"the economy\"? It is produced by economic agents, using economic resources, in response to economic incentives. Yet it represents genuine novelty—something that did not exist within the prior economic system.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-013",
+    "text": "The problem is that **the boundary of the economic system is not well-defined**. What counts as \"inside\" vs. \"outside\" the economy? Human creativity? Technological innovation? Political decisions? Cultural shifts? All of these both shape and are shaped by economic dynamics.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-014",
+    "text": "Possible candidates: - **Scarcity**: Resources are finite relative to wants - **Opportunity cost**: Choosing X means forgoing Y - **Hierarchy**: Large-scale societies exhibit status differentiation - **Exchange**: Humans trade - **Specialization**: Division of labor emerges above certain scales",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-015",
+    "text": "But notice: these are either: 1. **Tautological** (scarcity, opportunity cost—true by definition) 2. **Anthropological, not economic** (hierarchy, exchange, specialization—features of human societies generally, not specifically of \"economies\") 3. **Insufficiently specific** to ground quantitative predictions",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-016",
+    "text": "Yes, all large-scale societies exhibit hierarchy. This tells us nothing about what forms that hierarchy will take, how rigid or fluid it will be, what the relevant status dimensions are, or how it will interact with other social structures. It is an invariant so abstract as to be analytically sterile.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-017",
+    "text": "When economists speak of equilibrium, they mean something technical: a state where no agent has an incentive to change behavior, where markets clear, where the system has no internal tendency to change. This is a mathematical idealization with no empirical referent in actual economies.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-018",
+    "text": "The hard question: **Given that any large-scale society is predictable in some respects and unpredictable in others, what is the actual predictive scope of economics?**",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-019",
+    "text": "This requires distinguishing: 1. **Trivial predictions**: \"If you double the money supply, prices will eventually rise\" (but when? by how much? with what distributional effects?) 2. **Structural predictions**: \"Market economies will exhibit business cycles\" (but of what amplitude, frequency, or character?) 3. **Specific predictions**: \"The S&P 500 will be at X in 12 months\" (demonstrably impossible)",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-020",
+    "text": "The discipline of economics, in its contemporary scientized form, attempts to study systems that are: - **Open** (no clear boundary) - **Reflexive** (self-aware and prediction-responsive) - **Emergent** (constantly producing novelty) - **Path-dependent** (historically conditioned) - **Evolutionary** (ontologically fluid)",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-021",
+    "text": "It attempts to study these systems using methods appropriate to systems that are: - **Closed** (well-bounded) - **Non-reflexive** (objects unaware of predictions about them) - **Non-emergent** (behavior determined by fixed laws) - **Path-independent** (ahistorical) - **Structural** (ontologically stable)",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  },
+  {
+    "id": "EMERG-022",
+    "text": "This is not a correctable error. It is a category mistake. The predictive failure of economics is not contingent—it is necessary, given what economies are and what economics attempts to do.",
+    "source": "Emergency and Reflexivity (economics)",
+    "topic": "Philosophy of Economics",
+    "keywords": []
+  }
+]
