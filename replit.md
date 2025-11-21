@@ -1,15 +1,15 @@
 # FreudGPT - Multi-Philosopher AI Assistant
 
 ## Overview
-FreudGPT is an intelligent conversational AI application providing in-depth, streaming responses based on the works of various philosophers. It uses semantic search over comprehensive philosophical databases to accurately reflect original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default), Kuczynski, and Jung, with a total of **~10,163 philosophical positions** across 3 philosophers (Nov 2025: Kuczynski database expanded from 1,226 to 3,893 positions through systematic extraction of 42+ philosophical works). The vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry. The app implements "executable minds" by transforming from "best impersonator" to "executable philosophical reasoning" through forward-chaining inference engines that deduce theoretical principles from phenomena before LLM prose generation.
+FreudGPT is an intelligent conversational AI application providing in-depth, streaming responses based on the works of various philosophers. It uses semantic search over comprehensive philosophical databases to accurately reflect original thinkers' arguments and styles. The project aims to make extensive philosophical works accessible and interactive, supporting detailed inquiry. It currently supports Freud (default), Kuczynski, and Jung, with a total of **~10,607 philosophical positions** across 3 philosophers (Nov 2025: Kuczynski database expanded from 1,226 to 4,337 positions through systematic extraction of 47+ philosophical works). The vision is to provide unparalleled access to complex philosophical thought, bridging foundational texts with modern inquiry. The app implements "executable minds" by transforming from "best impersonator" to "executable philosophical reasoning" through forward-chaining inference engines that deduce theoretical principles from phenomena before LLM prose generation.
 
 ## 🎊 MILESTONE ACHIEVED: 10,000+ Positions! (November 2025)
 
-FreudGPT has surpassed the 10,000 philosophical position milestone, now serving **10,163 positions** across all philosophers. The Kuczynski database alone has grown by **+217%** (1,226 → 3,893 positions) through systematic extraction of 42+ philosophical works.
+FreudGPT has surpassed the 10,000 philosophical position milestone, now serving **10,607 positions** across all philosophers. The Kuczynski database alone has grown by **+254%** (1,226 → 4,337 positions) through systematic extraction of 47+ philosophical works.
 
-**Kuczynski Database Growth: +217% (1,226 → 3,893 positions)**
+**Kuczynski Database Growth: +254% (1,226 → 4,337 positions)**
 
-Systematically extracted and integrated 2,667 new positions from 42+ previously unprocessed philosophical works across 8 extraction batches:
+Systematically extracted and integrated 3,111 new positions from 47+ previously unprocessed philosophical works across 9 extraction batches:
 
 **Batches 1-5** (2,079 positions):
 - Mind, Meaning & Scientific Explanation (146 positions)
@@ -38,11 +38,18 @@ Systematically extracted and integrated 2,667 new positions from 42+ previously 
 - King Follett Discourse (3 positions): Mormon theology and philosophy of religion
 - Reflexivity and Emergency in Economics (1 position): Philosophy of economics
 
+**Batch 9** (444 positions):
+- ZHI Systems Journal (324 positions): Kant, McTaggart, network epistemology, metaphysics
+- The Moral Structure of Legal Obligation (99 positions): Legal philosophy and ethics
+- Sorites Paradox (18 positions): Logic, vagueness, implicit comparatives
+- Three Kinds of Psychopaths (3 positions): Psychopathology
+
 **Database Statistics:**
-- **Current Version**: v39_WITH_BATCH8 (3,893 total positions, 3,575 with embeddings)
-- **System Total**: 10,163 positions across all philosophers
-- **Topical Coverage**: Logic/Mathematics, Philosophy of Language, Semantics, Causation/Modality, Philosophy of Mind, Epistemology, Political Philosophy, Psychopathology, Business Ethics, Philosophy of Science, Cultural Criticism, Modal Logic, Philosophy of Religion, Philosophy of Economics
-- **Unique ID Prefixes**: MMSE-, LMCC-, LSPM-, IMR-, PHMATH-, KHIND-, DEFDESC-, ABSTR-, INTFOUND-, EMERG-, FREEWILL-, CFACT-, LOGDIAL-, CONCAUS-, CATOM-, ANALPHIL-, PSYCHQA-, COLLPAP-, PARAD-, OCDPHIL-, KNOWTH-, PHILKNOW-, PHILSCI-, DIALOG-, QUANT-, MODAL-, MORMON-, ECON-, and others
+- **Current Version**: v40_WITH_BATCH9 (4,337 total positions, 4,019 with embeddings)
+- **System Total**: 10,607 positions across all philosophers
+- **Progress to 10k Kuczynski Goal**: 43.4% (4,337/10,000 positions)
+- **Topical Coverage**: Logic/Mathematics, Philosophy of Language, Semantics, Causation/Modality, Philosophy of Mind, Epistemology, Political Philosophy, Psychopathology, Business Ethics, Philosophy of Science, Cultural Criticism, Modal Logic, Philosophy of Religion, Philosophy of Economics, Legal Philosophy, Metaphysics (Kant, McTaggart)
+- **Unique ID Prefixes**: MMSE-, LMCC-, LSPM-, IMR-, PHMATH-, KHIND-, DEFDESC-, ABSTR-, INTFOUND-, EMERG-, FREEWILL-, CFACT-, LOGDIAL-, CONCAUS-, CATOM-, ANALPHIL-, PSYCHQA-, COLLPAP-, PARAD-, OCDPHIL-, KNOWTH-, PHILKNOW-, PHILSCI-, DIALOG-, QUANT-, MODAL-, MORMON-, ECON-, LEGAL-, ZHI-, SORITES-, PSYCHO-, and others
 - **Extraction Methodology**: Automated paragraph-level extraction with argumentative indicator detection, preserving Kuczynski's rigorous analytical style
 - **Embedding System**: OpenAI text-embedding-3-small API with scikit-learn cosine similarity
 
